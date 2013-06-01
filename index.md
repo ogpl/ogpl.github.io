@@ -12,9 +12,9 @@ The open source product, called the [Open Government Platform (OGPL)](http://www
 
 ### Contents ###
 
-- [Best Practices: API](/best_practices/api.html)
+- [Best Practices: API](/best_practices/apis.html)
 - [Best Practices: Metadata](/best_practices/metadata.html)
-- [Contributions](/contributions/contrib.html)
+- [Contributions](/contributions/contributions.html)
 - [Licensing](/licensing/licenses.html)
 - [Open Data](/open_data/open_data.html)
 - [Partners: Canada](/partners/canada.html)
