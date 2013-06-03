@@ -21,5 +21,6 @@ The open source product, called the [Open Government Platform (OGPL)](http://www
 - [Partners: USA](/partners/usa.html)
 - [Tools: CKAN](/tools/ckan.html)
 - [Tools: Drupal](/tools/drupal.html)
+- Test with mock user
 
 [Edit this page using Prose](http://prose.io/#ogpl/ogpl.github.io/edit/master/index.md "Edit")
