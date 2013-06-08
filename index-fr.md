@@ -1,6 +1,7 @@
 ---
 layout: default-fr
 published: "true"
+permalink: index-fr.html
 filename_root: index
 title: Plate-forme de gouvernement ouvert
 ---
