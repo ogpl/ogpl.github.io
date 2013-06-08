@@ -1,8 +1,7 @@
 ---
 layout: default-en
 published: "true"
-permalink: metadata.html
-filename: metadata.md
+filename_root: metadata
 title: Metadata information
 ---
 

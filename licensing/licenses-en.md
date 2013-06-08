@@ -1,8 +1,7 @@
 ---
 layout: default-en
 published: "true"
-permalink: licenses.html
-filename: licenses.md
+filename_root: licenses
 title: Licenses
 ---
 

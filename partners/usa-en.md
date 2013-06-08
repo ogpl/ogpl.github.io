@@ -1,8 +1,7 @@
 ---
 layout: default-en
 published: "true"
-permalink: usa.html
-filename: usa.md
+filename_root: usa
 title: USA
 ---
 
