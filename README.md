@@ -1,7 +1,12 @@
 ogpl.github.io
 ==============
 
-Repository for the Open Government Platform
+Repository for the Open Government Platform (OGPL)
 
-[Visit the GitHub Pages](http://ogpl.github.com "Documentation")
+[OGPL documents](http://http://ogpl.github.io/index-en.html)
 
+---
+
+Logithèque de référence de la Plate-forme de gouvernement ouvert (PGO)
+
+[Documents PGO](http://http://ogpl.github.io/index-fr.html)
