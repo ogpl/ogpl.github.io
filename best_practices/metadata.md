@@ -1,7 +1,9 @@
 ---
+layout: default-en
 published: "true"
 permalink: metadata.html
-
+filename: metadata.md
+title: Metadata information
 ---
 
 Metadata information goes here

@@ -1,0 +1,18 @@
+{% include header-en.html %}            
+
+<div id="wb-core"><div id="wb-core-in" class="equalize">
+<div id="wb-main" role="main"><div id="wb-main-in">
+<!-- MainContentStart -->
+<h1 id="wb-cont">{{ page.title }}</h1>
+
+{{ content }}
+
+<dl id="base-date-mod" role="contentinfo">
+<dt>Date modified:</dt><dd><span><time>{{ page.date }}</time></span></dd>
+</dl>
+<div class="clear"></div>
+<!-- MainContentEnd -->
+</div></div>
+</div></div>
+
+{% include footer-en.html %}  
