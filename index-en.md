@@ -1,7 +1,7 @@
 ---
 layout: default-en
 published: "true"
-permalink: index-fr.html
+permalink: index-en.html
 filename_root: index
 title: Open Government Platform
 ---
