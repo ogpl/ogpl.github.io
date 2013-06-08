@@ -10,7 +10,7 @@ Le produit open source, appelée [Plate-forme de gouvernement ouvert (PGO)]​�
 
 ## Contenu ##
 
-- [Gouvernance de la PGO sur Github](gouvernance.html)
+- [Gouvernance de la PGO sur Github](gouvernance-fr.html)
 - [Pratiques exemplaires : API](/best_practices/apis-fr.html)
 - [Pratiques exemplaires : Metadata](/best_practices/metadata-fr.html)
 - [Contributions](/contributions/contributions-fr.html)
