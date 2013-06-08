@@ -1,6 +1,7 @@
 # standard jekyll configuration
 
 title: Open Government Platform
+title_fr: Plate-forme de gouvernement ouvert
 url: http://ogpl.github.io/
 repo_name: ogpl.github.io
 branch: master

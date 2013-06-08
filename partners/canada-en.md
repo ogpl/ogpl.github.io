@@ -1,8 +1,7 @@
 ---
 layout: default-en
 published: "true"
-permalink: canada.html
-filename: canada.md
+filename_root: canada
 title: Canada
 ---
 
