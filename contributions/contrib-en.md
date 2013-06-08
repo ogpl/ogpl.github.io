@@ -1,8 +1,7 @@
 ---
 layout: default-en
 published: "true"
-permalink: contributions.html
-filename: contrib.md
+filename_root: contrib
 title: Contributions
 ---
 

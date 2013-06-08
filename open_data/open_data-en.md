@@ -1,8 +1,7 @@
 ---
 layout: default-en
 published: "true"
-permalink: open_data.html
-filename: open_data.md
+filename_root: open_data
 title: Open Data
 ---
 

@@ -1,8 +1,7 @@
 ---
 layout: default-en
 published: "true"
-permalink: ckan.html
-filename: ckan.md
+filename_root: ckan
 title: CKAN
 ---
 
