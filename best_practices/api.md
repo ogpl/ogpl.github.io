@@ -1,13 +1,9 @@
 ---
+layout: default-en
 published: "true"
 permalink: apis.html
-
----
-
----
-permalink: apis.html
-published: true
-
+filename: apis.md
+title: API information
 ---
 
 API information goes here
