@@ -1,6 +1,7 @@
 ---
 layout: default-fr
 published: "true"
+permalink: governance-fr.html
 filename_root: governance
 title: Gouvernance de la PGO sur Github
 ---

@@ -1,6 +1,7 @@
 ---
 layout: default-en
 published: "true"
+permalink: metadata-en.html
 filename_root: metadata
 title: Metadata information
 ---

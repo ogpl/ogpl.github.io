@@ -1,6 +1,7 @@
 ---
 layout: default-en
 published: "true"
+permalink: apis-en.html
 filename_root: apis
 title: API information
 ---
