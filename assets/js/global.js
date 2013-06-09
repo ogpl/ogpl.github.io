@@ -6,7 +6,7 @@
 		var $editLink = $('#edit-page'),
 			request = false;
 		if ($editLink.length !== 0) {
-			$editLink.attr('href', $editLink.attr('href').replace('http://prose.io/#ogpl/ogpl.github.io/edit/', 'https://github.com/ogpl/ogpl.github.io/'));
+			$editLink.attr('href', $editLink.attr('href').replace('http://prose.io/#ogpl/ogpl.github.io/edit/', 'https://github.com/ogpl/ogpl.github.io/blob/'));
 		}
 	}
 }(jQuery));

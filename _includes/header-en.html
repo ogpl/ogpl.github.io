@@ -33,7 +33,9 @@ wet-boew.github.io/wet-boew/License-eng.txt / wet-boew.github.io/wet-boew/Licenc
 <!-- CustomCSSStart -->
 {% if page.css_href %}
 {% capture css_href_diff %}{{ page.css_href | size | minus:4 }}{% endcapture %}
-
+{% unless css_href_diff contains '-' %}
+<link rel='stylesheet' href='{% page.css_href %}' />
+{% endunless %}
 {% endif %}
 <!-- CustomCSSEnd -->
 </head>
