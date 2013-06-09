@@ -10,27 +10,33 @@
 wet-boew.github.io/wet-boew/License-eng.txt / wet-boew.github.io/wet-boew/Licence-fra.txt -->
 <title>{{ page.title }} - {{ site.title_fr }}</title>
 
-<link rel="shortcut icon" href="/dist/theme-ogpl/images/favicon.ico" />
-<meta name="description" content="{{ site.desc }}" />
+<link rel="shortcut icon" href="/wet-boew/dist/theme-ogpl/images/favicon.ico" />
+<meta name="description" content="{{ page.description }}" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <!--[if lte IE 8]>
-<script src="/dist/js/jquery-ie.min.js"></script>
-<script src="/dist/js/polyfills/html5shiv-min.js"></script>
-<link rel="stylesheet" href="/dist/grids/css/util-ie-min.css" />
-<link rel="stylesheet" href="/dist/js/css/pe-ap-ie-min.css" />
-<link rel="stylesheet" href="/dist/theme-ogpl/css/theme-ie-min.css" />
-<noscript><link rel="stylesheet" href="/dist/theme-ogpl/css/theme-ns-ie-min.css" /></noscript>
+<script src="/wet-boew/dist/js/jquery-ie.min.js"></script>
+<script src="/wet-boew/dist/js/polyfills/html5shiv-min.js"></script>
+<link rel="stylesheet" href="/wet-boew/dist/grids/css/util-ie-min.css" />
+<link rel="stylesheet" href="/wet-boew/dist/js/css/pe-ap-ie-min.css" />
+<link rel="stylesheet" href="/wet-boew/dist/theme-ogpl/css/theme-ie-min.css" />
+<noscript><link rel="stylesheet" href="/wet-boew/dist/theme-ogpl/css/theme-ns-ie-min.css" /></noscript>
 <![endif]-->
 <!--[if gt IE 8]><!-->
-<script src="/dist/js/jquery.min.js"></script>
-<link rel="stylesheet" href="/dist/grids/css/util-min.css" />
-<link rel="stylesheet" href="/dist/js/css/pe-ap-min.css" />
-<link rel="stylesheet" href="/dist/theme-ogpl/css/theme-min.css" />
-<noscript><link rel="stylesheet" href="/dist/theme-ogpl/css/theme-ns-min.css" /></noscript>
+<script src="/wet-boew/dist/js/jquery.min.js"></script>
+<link rel="stylesheet" href="/wet-boew/dist/grids/css/util-min.css" />
+<link rel="stylesheet" href="/wet-boew/dist/js/css/pe-ap-min.css" />
+<link rel="stylesheet" href="/wet-boew/dist/theme-ogpl/css/theme-min.css" />
+<noscript><link rel="stylesheet" href="/wet-boew/dist/theme-ogpl/css/theme-ns-min.css" /></noscript>
 <!--<![endif]-->
 
 <!-- CustomCSSStart -->
+{% if page.css_href %}
+{% capture css_href_diff %}{{ page.css_href | minus:4 }}{% endcapture %}
+{% unless css_href_diff contains '-' %}
+<link rel='stylesheet' href='{% page.css_href %}' />
+{% endunless %}
+{% endif %}
 <!-- CustomCSSEnd -->
 </head>
 
@@ -54,7 +60,7 @@ wet-boew.github.io/wet-boew/License-eng.txt / wet-boew.github.io/wet-boew/Licenc
 </div></section>
 
 <div id="ogpl-bnr" role="banner"><div id="ogpl-bnr-in">
-<div id="ogpl-title"><p id="ogpl-title-in"><a href="/index-fr.html"><img src="/dist/theme-ogpl/images/theme103_logo.png" alt="" /> <span>Plate-forme de gouvernement ouvert (PGO)</span></a></p></div>
+<div id="ogpl-title"><p id="ogpl-title-in"><a href="/index-fr.html"><img src="/wet-boew/dist/theme-ogpl/images/theme103_logo.png" alt="" /> <span>Plate-forme de gouvernement ouvert (PGO)</span></a></p></div>
 
 <nav role="navigation">
 <div id="ogpl-psnb"><h2>Menu du site</h2><div id="ogpl-psnb-in"><div class="wet-boew-menubar mb-mega"><div>

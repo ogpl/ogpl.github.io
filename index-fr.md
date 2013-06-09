@@ -4,6 +4,9 @@ published: "true"
 permalink: index-fr.html
 filename_root: index
 title: Plate-forme de gouvernement ouvert
+description:
+css_href:
+script_src:
 ---
 
 Le produit open source, appelée [Plate-forme de gouvernement ouvert (PGO)]​​(http://www.opengovplatform.org/ "Plate-forme de gouvernement ouvert (PGO)"), peut être téléchargé et évalué par un gouvernement national ou d'un état ou d'une entité locale pour aider à rendre leurs données ouvertes et transparent.

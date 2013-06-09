@@ -4,6 +4,9 @@ published: "true"
 permalink: governance-en.html
 filename_root: governance
 title: OGPL Governance on Github
+description:
+css_href:
+script_src:
 ---
 
 ## Overview

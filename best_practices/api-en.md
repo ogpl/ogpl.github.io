@@ -4,6 +4,9 @@ published: "true"
 permalink: apis-en.html
 filename_root: apis
 title: API information
+description:
+css_href:
+script_src:
 ---
 
 API information goes here
