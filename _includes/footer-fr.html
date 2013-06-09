@@ -50,7 +50,10 @@
 <!-- CustomScriptsStart -->
 <script src="/assets/js/global.js"></script>
 {% if page.script_src %}
-
+{% capture script_src_diff %}{{ page.script_src | size | minus:3 }}{% endcapture %}
+{% if script_src_diff and script_src_diff contains '-' %}
+<link rel='stylesheet' href='{% page.script_src %}' />
+{% endif %}
 {% endif %}
 <!-- CustomScriptsEnd -->
 </body>
