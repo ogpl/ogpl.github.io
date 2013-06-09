@@ -49,9 +49,8 @@
 
 <!-- CustomScriptsStart -->
 <script src="/assets/js/global.js"></script>
-{% if page.script_src %}
-{% capture script_src_diff %}{{ page.script_src | size | minus:3 }}{% endcapture %}
-
+{% if page.script_src and page.script_src contains '.js' %}
+<link rel='stylesheet' href='{% page.css_href %}' />
 {% endif %}
 <!-- CustomScriptsEnd -->
 </body>
