@@ -5,7 +5,7 @@ permalink: index-en.html
 filename_root: index
 title: Open Government Platform
 description:
-css_href: tester
+css_href:
 script_src: tester
 ---
 

@@ -50,7 +50,7 @@
 <!-- CustomScriptsStart -->
 <script src="/assets/js/global.js"></script>
 {% if page.script_src and page.script_src contains '.js' %}
-<link rel='stylesheet' href='{% page.css_href %}' />
+<link rel='stylesheet' href='{{ page.script_src }}' />
 {% endif %}
 <!-- CustomScriptsEnd -->
 </body>
