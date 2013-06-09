@@ -4,6 +4,9 @@ published: "true"
 permalink: metadata-en.html
 filename_root: metadata
 title: Metadata information
+description:
+css_href:
+script_src:
 ---
 
 Metadata information goes here
