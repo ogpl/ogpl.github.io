@@ -50,10 +50,7 @@
 <!-- CustomScriptsStart -->
 <script src="/assets/js/global.js"></script>
 {% if page.script_src %}
-{% capture script_src_diff %}{{ page.script_src | size | minus:3 }}{% endcapture %}
-{% unless script_src_diff contains '-' %}
-<script src="{% page.script_src %}"></script>
-{% endunless %}
+
 {% endif %}
 <!-- CustomScriptsEnd -->
 </body>
