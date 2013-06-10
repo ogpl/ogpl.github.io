@@ -1,12 +1,12 @@
 ---
 layout: default-fr
 published: "true"
-permalink: licenses-fr.html
-filename_root: licenses
-title: Licenses
+permalink: index-fr.html
+filename_root: index
+title: Licences
 description:
 css_href:
 script_src:
 ---
 
-Licenses ici
+Licences ici
