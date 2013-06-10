@@ -66,12 +66,9 @@ wet-boew.github.io/wet-boew/License-eng.txt / wet-boew.github.io/wet-boew/Licenc
 
 <div id="ogpl-bnr" role="banner"><div id="ogpl-bnr-in">
 <div id="ogpl-title"><p id="ogpl-title-in"><a href="/index-en.html"><img src="/wet-boew/dist/theme-ogpl/images/theme103_logo.png" alt="" /> <span>Open Government Platform (OGPL)</span></a></p></div>
-{% if page.search == 'false' %}
-<!-- Search hidden --> 
-{% elsif site.search == 'false' and page.search != 'true' %}
-<!-- Search hidden -->
+{% if site.search == 'false' %}
 {% else %}
-<!-- Search not hidden -->
+
 <section role="search"><div id="ogpl-srchbx"><h2>Search</h2>
 <form action="#" method="post"><div id="ogpl-srchbx-in">
 <label for="ogpl-srch">Search website</label><input id="ogpl-srch" name="ogpl-srch" type="search" value="" size="27" maxlength="150" />
