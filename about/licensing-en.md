@@ -1,8 +1,8 @@
 ---
 layout: default-en
 published: "true"
-permalink: licenses-en.html
-filename_root: licenses
+permalink: index-en.html
+filename_root: index
 title: Licenses
 description:
 css_href:

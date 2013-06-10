@@ -5,21 +5,26 @@ permalink: index-en.html
 filename_root: index
 title: Open Government Platform
 description:
+breadcrumb: false
 css_href:
 script_src: tester
 ---
 
-The open source product, called the [Open Government Platform (OGPL)](http://www.opengovplatform.org/ "Open Government Platform"), can be downloaded and evaluated by any national Government or state or local entity as a path toward making their data open and transparent.
+{{ site.description_en }}
 
-## Contents ##
+## Table of contents ##
 
-- [OGPL Governance on Github](governance-en.html)
-- [Best Practices: API](/best_practices/apis-en.html)
-- [Best Practices: Metadata](/best_practices/metadata-en.html)
-- [Contributions](/contributions/contributions-en.html)
-- [Licensing](/licensing/licenses-en.html)
-- [Open Data](/open_data/open_data-en.html)
-- [Partners: Canada](/partners/canada-en.html)
-- [Partners: USA](/partners/usa-en.html)
-- [Tools: CKAN](/tools/ckan-en.html)
-- [Tools: Drupal](/tools/drupal-en.html)
+* [Best Practices](/best_practices/index-en.html)
+ * [API](/best_practices/apis-en.html)
+ * [Metadata](/best_practices/metadata-en.html)
+* [Contributions](/contributions/index-en.html)
+* [Open Data](/open_data/open_data-en.html)
+* [Partners](/partners/index-en.html)
+ * [Canada](/partners/canada-en.html)
+ * [United States of America](/partners/usa-en.html)
+* [Tools](/tools/index-en.html)
+ * [CKAN](/tools/ckan-en.html)
+ * [Drupal](/tools/drupal-en.html)
+* [About OGPL](/about/index-en.html)
+ * [OGPL Governance on Github](/about/gouvernance-en.html)
+ * [Licensing](/about/licensing-en.html)
