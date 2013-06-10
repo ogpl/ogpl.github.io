@@ -1,4 +1,4 @@
-<div id="wb-foot"><div id="wb-foot-in"><footer><h2 id="wb-nav">Footer</h2>
+<div id="wb-foot"><div id="wb-foot-in"><footer><h2{% if page.secondary_menu == false %}{% elsif site.secondary_menu == false and page.secondary_menu != true %}{% else %} id="wb-nav"{% endif %}>Footer</h2>
 <!-- FooterStart -->
 <nav role="navigation"><div id="ogpl-sft"><h3>Site footer</h3><div id="ogpl-sft-in">
 <section><div class="span-2"><h4 class="ogpl-col-head">About OGPL</h4>
