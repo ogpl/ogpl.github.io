@@ -11,7 +11,11 @@ wet-boew.github.io/wet-boew/License-eng.txt / wet-boew.github.io/wet-boew/Licenc
 <title>{{ page.title }} - {{ site.title_fr }}</title>
 
 <link rel="shortcut icon" href="/wet-boew/dist/theme-ogpl/images/favicon.ico" />
+{% if page.description and page.description != '' %}
 <meta name="description" content="{{ page.description }}" />
+{% else %}
+<meta name="description" content="{{ site.description_fr }}" />
+{% endif %}
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <!--[if lte IE 8]>
@@ -31,7 +35,7 @@ wet-boew.github.io/wet-boew/License-eng.txt / wet-boew.github.io/wet-boew/Licenc
 <!--<![endif]-->
 
 <!-- CustomCSSStart -->
-{% if page.css_href and page.css_href contains '.css' %}
+{% if page.css_href contains '.css' %}
 <link rel='stylesheet' href='{{ page.css_href }}' />
 {% endif %}
 <!-- CustomCSSEnd -->
@@ -47,37 +51,74 @@ wet-boew.github.io/wet-boew/License-eng.txt / wet-boew.github.io/wet-boew/Licenc
 
 <div id="wb-head"><div id="wb-head-in"><header>
 <!-- HeaderStart -->
-<section><div id="ogpl-fullhd"><h2>Langues</h2>
+<section><div id="ogpl-fullhd"><h2>Barre d'en-tête</h2>
+{% if page.languages == 'false' %}
+{% elsif site.languages == 'false' and page.languages != 'true' %}
+{% else %}
 <div id="ogpl-fullhd-in">
 <ul>
 <li id="ogpl-fullhd-lang-current">Français</li>
 <li id="ogpl-fullhd-lang-2"><a href="{{ page.filename_root }}-en.html" lang="en">English</a></li>
 </ul>
 </div>
+{% endif %}
 </div></section>
 
 <div id="ogpl-bnr" role="banner"><div id="ogpl-bnr-in">
 <div id="ogpl-title"><p id="ogpl-title-in"><a href="/index-fr.html"><img src="/wet-boew/dist/theme-ogpl/images/theme103_logo.png" alt="" /> <span>Plate-forme de gouvernement ouvert (PGO)</span></a></p></div>
+{% if page.search == 'false' %}
+{% elsif site.search == 'false' and page.search != 'true' %}
+{% else %}
+
+<section role="search"><div id="ogpl-srchbx"><h2>Recherche</h2>
+<form action="#" method="post"><div id="ogpl-srchbx-in">
+<label for="ogpl-srch">Recherchez le site Web</label><input id="ogpl-srch" name="ogpl-srch" type="search" value="" size="27" maxlength="150" />
+<input id="ogpl-srch-submit" name="ogpl-srch-submit" type="submit" value="Recherche" data-icon="search" class="button button-accent" />
+</div></form>
+</div></section>
+</div></div>
+{% endif %}
+{% if page.site_menu == 'false' and page.breacrumb == 'false' %}
+{% elsif page.site_menu == 'false' and page.site_menu != 'true' and site.breadcrumb == 'false' and page.breadcrumb != 'true' %}
+{% elsif site.site_menu == 'false' and page.site_menu != 'true' and page.breacrumb == 'false' %}
+{% elsif site.site_menu == 'false' and page.site_menu != 'true' and site.breadcrumb == 'false' and page.breadcrumb != 'true' %}
+{% else %}
 
 <nav role="navigation">
+{% if page.site_menu == 'false' %}
+{% elsif site.site_menu == 'false' and page.site_menu != 'true' %}
+{% else %}
 <div id="ogpl-psnb"><h2>Menu du site</h2><div id="ogpl-psnb-in"><div class="wet-boew-menubar mb-mega"><div>
 <ul class="mb-menu">
-<li><div><a href="#">Section 1</a></div></li>
-<li><div><a href="#">Section 2</a></div></li>
-<li><div><a href="#">Section 3</a></div></li>
-<li><div><a href="#">Section 4</a></div></li>
-<li><div><a href="#">Section 5</a></div></li>
-<li><div><a href="#">Section 6</a></div></li>
-<li><div><a href="#">Section 7</a></div></li>
+<li><div><a href="/best_practices/index-fr.html">Pratiques exemplaires</a></div></li>
+<li><div><a href="/contributions/index-fr.html">Contributions</a></div></li>
+<li><div><a href="/open_data/index-fr.html">Données ouvertes</a></div></li>
+<li><div><a href="/partners/index-fr.html">Partenaires</a></div></li>
+<li><div><a href="/tools/index-fr.html">Outils</a></div></li>
 </ul>
 </div></div></div></div>
+{% endif %}
+{% if page.breadcrumb == 'false' %}
+{% elsif site.breadcrumb == 'false' and page.breadcrumb != 'true' %}
+{% else %}
 
 <div id="ogpl-bc"><h2>Fil d'Ariane</h2><div id="ogpl-bc-in">
 <ol>
 <li><a href="/index-fr.html">Accueil</a></li>
+{% if page.breadcrumb_parent1_url contains '.html' and page.breadcrumb_parent1_name %}
+<li><a href="{{ page.breadcrumb_parent1_url }}">{{ page.breadcrumb_parent1_name }}</a></li>
+{% if page.breadcrumb_parent2_url contains '.html' and page.breadcrumb_parent2_name %}
+<li><a href="{{ page.breadcrumb_parent2_url }}">{{ page.breadcrumb_parent2_name }}</a></li>
+{% if page.breadcrumb_parent3_url contains '.html' and page.breadcrumb_parent3_name %}
+<li><a href="{{ page.breadcrumb_parent3_url }}">{{ page.breadcrumb_parent3_name }}</a></li>
+{% endif %}
+{% endif %}
+{% endif %}
 <li>{{ page.title }}</li>
 </ol>
 </div></div>
+{% endif %}
 </nav>
+{% endif %}
 <!-- HeaderEnd -->
 </header></div></div>

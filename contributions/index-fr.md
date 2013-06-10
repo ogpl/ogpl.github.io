@@ -1,8 +1,8 @@
 ---
 layout: default-fr
 published: "true"
-permalink: contrib-fr.html
-filename_root: contrib
+permalink: index-fr.html
+filename_root: index
 title: Contributions
 description:
 css_href:
