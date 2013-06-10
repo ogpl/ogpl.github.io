@@ -5,7 +5,7 @@ permalink: index-fr.html
 filename_root: index
 title: Plate-forme de gouvernement ouvert
 description:
-breadcrumb: "false"
+breadcrumb: false
 css_href:
 script_src:
 ---
