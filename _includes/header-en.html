@@ -52,8 +52,8 @@ wet-boew.github.io/wet-boew/License-eng.txt / wet-boew.github.io/wet-boew/Licenc
 <div id="wb-head"><div id="wb-head-in"><header>
 <!-- HeaderStart -->
 <section><div id="ogpl-fullhd"><h2>Header bar</h2>
-{% if page.languages == 'false' %}
-{% elsif site.languages == 'false' and page.languages != 'true' %}
+{% if page.languages == false %}
+{% elsif site.languages == false and page.languages != true %}
 {% else %}
 <div id="ogpl-fullhd-in">
 <ul>
@@ -66,8 +66,8 @@ wet-boew.github.io/wet-boew/License-eng.txt / wet-boew.github.io/wet-boew/Licenc
 
 <div id="ogpl-bnr" role="banner"><div id="ogpl-bnr-in">
 <div id="ogpl-title"><p id="ogpl-title-in"><a href="/index-en.html"><img src="/wet-boew/dist/theme-ogpl/images/theme103_logo.png" alt="" /> <span>Open Government Platform (OGPL)</span></a></p></div>
-{% if page.search == 'false' %}
-{% elsif site.search == 'false' and page.search != 'true' %}
+{% if page.search == false %}
+{% elsif site.search == false and page.search != true %}
 {% else %}
 
 <section role="search"><div id="ogpl-srchbx"><h2>Search</h2>
@@ -78,10 +78,10 @@ wet-boew.github.io/wet-boew/License-eng.txt / wet-boew.github.io/wet-boew/Licenc
 </div></section>
 </div></div>
 {% endif %}
-{% if page.site_menu == 'false' and page.breacrumb == 'false' %}
-{% elsif  page.site_menu == 'false' and page.site_menu != 'true' and site.breadcrumb == 'false' and page.breadcrumb != 'true' %}
-{% elsif site.site_menu == 'false' and page.site_menu != 'true' and page.breacrumb == 'false' %}
-{% elsif site.site_menu == 'false' and page.site_menu != 'true' site.breadcrumb == 'false' and page.breadcrumb != 'true' %}
+{% if page.site_menu == false and page.breacrumb == false %}
+{% elsif page.site_menu == false and page.site_menu != true and site.breadcrumb == false and page.breadcrumb != true %}
+{% elsif site.site_menu == false and page.site_menu != true and page.breacrumb == false %}
+{% elsif site.site_menu == false and page.site_menu != true site.breadcrumb == false and page.breadcrumb != true %}
 {% else %}
 
 <nav role="navigation">
