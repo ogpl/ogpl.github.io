@@ -5,7 +5,7 @@ permalink: index-en.html
 filename_root: index
 title: Open Government Platform
 description:
-breadcrumb: false
+breadcrumb: "false"
 css_href:
 script_src:
 ---
@@ -26,5 +26,5 @@ script_src:
   * [CKAN](/tools/ckan-en.html)
   * [Drupal](/tools/drupal-en.html)
 * [About OGPL](/about/index-en.html)
-  * [OGPL Governance on Github](/about/gouvernance-en.html)
+  * [OGPL Governance on Github](/about/governance-en.html)
   * [Licensing](/about/licensing-en.html)
