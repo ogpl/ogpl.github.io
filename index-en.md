@@ -7,7 +7,7 @@ title: Open Government Platform
 description:
 breadcrumb: false
 css_href:
-script_src: tester
+script_src:
 ---
 
 {{ site.description_en }}
