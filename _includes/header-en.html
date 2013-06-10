@@ -35,7 +35,7 @@ wet-boew.github.io/wet-boew/License-eng.txt / wet-boew.github.io/wet-boew/Licenc
 <!--<![endif]-->
 
 <!-- CustomCSSStart -->
-{% if page.css_href contains '.css' %}
+{% if page.css_href and page.css_href contains '.css' %}
 <link rel='stylesheet' href='{{ page.css_href }}' />
 {% endif %}
 <!-- CustomCSSEnd -->
@@ -86,7 +86,7 @@ wet-boew.github.io/wet-boew/License-eng.txt / wet-boew.github.io/wet-boew/Licenc
 
 <nav role="navigation">
 {% if page.site_menu == 'false' %}
-{% elsifsite.site_menu == 'false' and page.site_menu != 'true' %}
+{% elsif site.site_menu == 'false' and page.site_menu != 'true' %}
 {% else %}
 <div id="ogpl-psnb"><h2>Site menu</h2><div id="ogpl-psnb-in"><div class="wet-boew-menubar mb-mega"><div>
 <ul class="mb-menu">
@@ -104,16 +104,16 @@ wet-boew.github.io/wet-boew/License-eng.txt / wet-boew.github.io/wet-boew/Licenc
 
 <div id="ogpl-bc"><h2>Breadcrumb trail</h2><div id="ogpl-bc-in">
 <ol>
-{% if page.breadcrumb_parent1_url contains '.html' and page.breadcrumb_parent1_name %}
+<li><a href="/index-en.html">Home</a></li>
+{% if page.breadcrumb_parent1_url and page.breadcrumb_parent1_url contains '.html' and page.breadcrumb_parent1_name %}
 <li><a href="{{ page.breadcrumb_parent1_url }}">{{ page.breadcrumb_parent1_name }}</a></li>
-{% if page.breadcrumb_parent2_url contains '.html' and page.breadcrumb_parent2_name %}
+{% if page.breadcrumb_parent2_url and page.breadcrumb_parent2_url contains '.html' and page.breadcrumb_parent2_name %}
 <li><a href="{{ page.breadcrumb_parent2_url }}">{{ page.breadcrumb_parent2_name }}</a></li>
-{% if page.breadcrumb_parent3_url contains '.html' and page.breadcrumb_parent3_name %}
+{% if page.breadcrumb_parent3_url and page.breadcrumb_parent3_url contains '.html' and page.breadcrumb_parent3_name %}
 <li><a href="{{ page.breadcrumb_parent3_url }}">{{ page.breadcrumb_parent3_name }}</a></li>
 {% endif %}
 {% endif %}
 {% endif %}
-<li><a href="/index-en.html">Home</a></li>
 <li>{{ page.title }}</li>
 </ol>
 </div></div>

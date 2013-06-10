@@ -35,7 +35,7 @@ wet-boew.github.io/wet-boew/License-eng.txt / wet-boew.github.io/wet-boew/Licenc
 <!--<![endif]-->
 
 <!-- CustomCSSStart -->
-{% if page.css_href contains '.css' %}
+{% if page.css_href and page.css_href contains '.css' %}
 <link rel='stylesheet' href='{{ page.css_href }}' />
 {% endif %}
 <!-- CustomCSSEnd -->
@@ -105,11 +105,11 @@ wet-boew.github.io/wet-boew/License-eng.txt / wet-boew.github.io/wet-boew/Licenc
 <div id="ogpl-bc"><h2>Fil d'Ariane</h2><div id="ogpl-bc-in">
 <ol>
 <li><a href="/index-fr.html">Accueil</a></li>
-{% if page.breadcrumb_parent1_url contains '.html' and page.breadcrumb_parent1_name %}
+{% if page.breadcrumb_parent1_url and page.breadcrumb_parent1_url contains '.html' and page.breadcrumb_parent1_name %}
 <li><a href="{{ page.breadcrumb_parent1_url }}">{{ page.breadcrumb_parent1_name }}</a></li>
-{% if page.breadcrumb_parent2_url contains '.html' and page.breadcrumb_parent2_name %}
+{% if page.breadcrumb_parent2_url and page.breadcrumb_parent2_url contains '.html' and page.breadcrumb_parent2_name %}
 <li><a href="{{ page.breadcrumb_parent2_url }}">{{ page.breadcrumb_parent2_name }}</a></li>
-{% if page.breadcrumb_parent3_url contains '.html' and page.breadcrumb_parent3_name %}
+{% if page.breadcrumb_parent3_url and page.breadcrumb_parent3_url contains '.html' and page.breadcrumb_parent3_name %}
 <li><a href="{{ page.breadcrumb_parent3_url }}">{{ page.breadcrumb_parent3_name }}</a></li>
 {% endif %}
 {% endif %}
