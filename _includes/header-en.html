@@ -73,7 +73,7 @@ wet-boew.github.io/wet-boew/License-eng.txt / wet-boew.github.io/wet-boew/Licenc
 {% endif %}
 </div>
 {% if page.subsite == false %}{% elsif site.subsite == false and page.subsite != true %}
-{% else %}
+{% elsif page.subsite == true or site.subsite == true %}
 <div id="ogpl-subsite" class="ogpl-subsite-1">
 <p><a href="#">Sub-site name</a></p>
 </div>
