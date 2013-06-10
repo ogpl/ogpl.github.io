@@ -8,7 +8,7 @@ languages: true
 search: false
 site_menu: true
 breadcrumb: true
-date_modified: true
+date_modified: false
 url: http://ogpl.github.io/
 repo_name: ogpl.github.io
 branch: master

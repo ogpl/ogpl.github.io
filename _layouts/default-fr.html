@@ -13,8 +13,8 @@
 
 {{ content }}
 
-{% if page.date_modified == 'false' %}
-{% elsif site.date_modified == 'false' and page.date_modified != 'true' %}
+{% if page.date_modified == false %}
+{% elsif site.date_modified == false and page.date_modified != true %}
 {% else %}
 <dl id="ogpl-date-mod" role="contentinfo">
 <dt>Date de modification&#160;:</dt><dd><span><time>{{ page.modified }}</time></span></dd>
