@@ -1,5 +1,5 @@
 ---
-layout: default-fr
+layout: default-theme-ogpl-fr
 published: "true"
 permalink: metadata-fr.html
 filename_root: metadata

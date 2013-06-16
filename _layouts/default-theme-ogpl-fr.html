@@ -1,4 +1,4 @@
-{% include header-fr.html %}            
+{% include header-theme-ogpl-fr.html %}           
 
 <div id="wb-core"><div id="wb-core-in" class="equalize">
 <div id="wb-main" role="main"><div id="wb-main-in">
@@ -8,18 +8,17 @@
 <ul class="button-group">
 {% if page.content_editable == false %}{% elsif site.content_editable == false and page.content_editable != true %}
 {% elsif page.content_editable == true or site.content_editable == true %}
-<li><a id="edit-page" href="http://prose.io/#ogpl/ogpl.github.io/edit/{{ site.branch }}/{{ page.path }}" class="button"><span class="wb-icon-paper-pencil"></span>Modifier cette page</a></li>
+<li><a id="edit-page" href="http://prose.io/#ogpl/ogpl.github.io/edit/{{ site.branch }}/{{ page.path }}" class="button">Modifier cette page</a></li>
 {% endif %}
 {% if page.content_revision_history == false %}{% elsif site.content_revision_history == false and page.content_revision_history != true %}
 {% elsif page.content_revision_history == true or site.content_revision_history == true %}
-<li><a href="https://github.com/ogpl/ogpl.github.io/commits/{{ site.branch }}/{{ page.path }}" class="button"><span class="wb-icon-info"></span>Historique des révisions</a></li>
+<li><a href="https://github.com/ogpl/ogpl.github.io/commits/{{ site.branch }}/{{ page.path }}" class="button">Historique des révisions</a></li>
 {% endif %}
 {% if page.content_questions_comments == false %}{% elsif site.content_questions_comments == false and page.content_questions_comments != true %}
 {% elsif page.content_questions_comments == true or site.content_questions_comments == true %}
-<li><a href="https://github.com/ogpl/ogpl.github.io/issues/new" class="button"><span class="wb-icon-question"></span>Questions ou commentaires?</a></li>
+<li><a href="https://github.com/ogpl/ogpl.github.io/issues/new" class="button">Questions ou commentaires?</a></li>
 {% endif %}
 </ul>
-
 
 {{ content }}
 
@@ -34,8 +33,8 @@
 </div></div>
 {% if page.secondary_menu == false %}{% elsif site.secondary_menu == false and page.secondary_menu != true %}
 {% elsif page.secondary_menu == true or site.secondary_menu == true %}
-{% include theme-ogpl/secondary_menu-fr.html %}
+{% include secondary-menu-fr.html %}
 {% endif %}
 </div></div>
 
-{% include footer-fr.html %}  
+{% include footer-theme-ogpl-fr.html %}  
