@@ -1,13 +1,29 @@
 ---
-layout: default-en
+layout: default-theme-ogpl-en
 published: "true"
 permalink: index-en.html
 filename_root: index
 title: Open Government Platform
 description:
+languages:
+search:
+site_menu:
 breadcrumb: false
+breadcrumb_parent1_url:
+breadcrumb_parent1_name:
+breadcrumb_parent2_url:
+breadcrumb_parent2_name:
+breadcrumb_parent3_url:
+breadcrumb_parent3_name:
+breadcrumb_parent4_url:
+breadcrumb_parent4_name:
+breadcrumb_parent5_url:
+breadcrumb_parent5_name:
+date_modified:
 css_href:
 script_src:
+secondary_menu:
+secondary_menu_include:
 ---
 
 {{ site.description_en }}

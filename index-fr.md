@@ -1,13 +1,29 @@
 ---
-layout: default-fr
+layout: default-theme-ogpl-fr
 published: "true"
 permalink: index-fr.html
 filename_root: index
 title: Plate-forme de gouvernement ouvert
 description:
+languages:
+search:
+site_menu:
 breadcrumb: false
+breadcrumb_parent1_url:
+breadcrumb_parent1_name:
+breadcrumb_parent2_url:
+breadcrumb_parent2_name:
+breadcrumb_parent3_url:
+breadcrumb_parent3_name:
+breadcrumb_parent4_url:
+breadcrumb_parent4_name:
+breadcrumb_parent5_url:
+breadcrumb_parent5_name:
+date_modified:
 css_href:
 script_src:
+secondary_menu:
+secondary_menu_include:
 ---
 
 {{ site.description_fr }}
