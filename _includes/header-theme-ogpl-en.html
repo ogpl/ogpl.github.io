@@ -37,7 +37,7 @@ wet-boew.github.io/wet-boew/License-eng.txt / wet-boew.github.io/wet-boew/Licenc
 <!-- CustomCSSEnd -->
 </head>
 
-<body><div id="wb-body">
+<body><div id="wb-body{% if page.secondary_menu == false %}{% elsif site.secondary_menu == false and page.secondary_menu != true %}{% elsif page.secondary_menu == true or site.secondary_menu == true %}-sec{% endif %}">
 <div id="wb-skip">
 <ul id="wb-tphp">
 <li id="wb-skip1"><a href="#wb-cont">Skip to main content</a></li>
