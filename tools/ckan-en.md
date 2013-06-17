@@ -1,34 +1,11 @@
 ---
-layout: default-theme-ogpl-en
-published: "true"
-permalink: ckan-en.html
-filename_root: ckan
-title: CKAN
-description:
-modified: Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)
-languages:
-search:
-subsite:
-site_menu:
-breadcrumb:
-breadcrumb_parent1_url: index-en.html
-breadcrumb_parent1_name: Tools
-breadcrumb_parent2_url:
-breadcrumb_parent2_name:
-breadcrumb_parent3_url:
-breadcrumb_parent3_name:
-breadcrumb_parent4_url:
-breadcrumb_parent4_name:
-breadcrumb_parent5_url:
-breadcrumb_parent5_name:
-content_editable:
-content_revision_history:
-content_questions_comments:
-date_modified:
-secondary_menu:
-secondary_menu_include:
-css_href:
-script_src:
+published: true
+layout: "default-theme-ogpl-en"
+permalink: "ckan-en.html"
+filename_root: "ckan"
+title: "CKAN"
+breadcrumb_parent1_url: "index-en.html"
+breadcrumb_parent1_name: "Tools"
 ---
 
 Open Knowledge Foundation CKAN 2.0 repository: https://github.com/okfn/ckan (<a href="http://demo.ckan.org/">Live Site</a>)<br>
