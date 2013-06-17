@@ -1,8 +1,8 @@
 ---
-layout: default-theme-ogpl-fr
-published: "true"
-permalink: index-fr.html
-filename_root: index
+layout: "default-theme-ogpl-fr"
+published: true
+permalink: "index-fr.html"
+filename_root: "index"
 title: Pratiques exemplaires
 description:
 css_href:
