@@ -1,9 +1,9 @@
 # standard jekyll configuration
 
-title_en: Open Government Platform
-title_fr: Plate-forme de gouvernement ouvert
-description_en: The open source product, called the Open Government Platform (OGPL), can be downloaded and evaluated by any national Government or state or local entity as a path toward making their data open and transparent.
-description_fr: Le produit source ouverte, appelée la Plate-forme de gouvernement ouvert (PGO), peut être téléchargé et évalué par un gouvernement national ou d'un état ou d'une entité locale pour aider à rendre leurs données ouvertes et transparent.
+title_en: "Open Government Platform"
+title_fr: "Plate-forme de gouvernement ouvert"
+description_en: "The open source product, called the Open Government Platform (OGPL), can be downloaded and evaluated by any national Government or state or local entity as a path toward making their data open and transparent."
+description_fr: "Le produit source ouverte, appelée la Plate-forme de gouvernement ouvert (PGO), peut être téléchargé et évalué par un gouvernement national ou d'un état ou d'une entité locale pour aider à rendre leurs données ouvertes et transparent."
 languages: true
 search: false
 subsite: false
@@ -14,15 +14,15 @@ content_revision_history: true
 content_questions_comments: true
 date_modified: false
 secondary_menu: false
-secondary_menu_include:
-url: http://ogpl.github.io/
-repo_name: ogpl.github.io
-branch: master
+secondary_menu_include: null
+url: "http://ogpl.github.io/"
+repo_name: "ogpl.github.io"
+branch: "master"
 
 #global settings, no need to change these
-root_url: http://ogpl.github.io
-org_name: ogpl
-prose_url: http://prose.io
+root_url: "http://ogpl.github.io"
+org_name: "ogpl"
+prose_url: "http://prose.io"
 
 # default build settings for running locally, no need to edit
 pymgemnts: true
