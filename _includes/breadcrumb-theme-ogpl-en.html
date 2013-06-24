@@ -1,0 +1,32 @@
+
+<div id="ogpl-bc"><h2>Breadcrumb trail</h2><div id="ogpl-bc-in">
+<ol>
+<li><a href="http://ogpl.github.io/index-en.html">Home</a></li>
+{% if page.url contains 'about/' %}
+{% unless page.url contains 'about/index-en.html' %}
+<li><a href="http://ogpl.github.io/about/index-en.html">About OGPL</a></li>
+{% endunless %}
+{% elsif page.url contains 'best_practices/' %}
+{% unless page.url contains 'best_practices/index-en.html' %}
+<li><a href="http://ogpl.github.io/best_practices/theme-ogpl/index-en.html">Best Practices</a></li>
+{% endunless %}
+{% elsif page.url contains 'contributions/' %}
+{% unless page.url contains 'contributions/index-en.html' %}
+<li><a href="http://ogpl.github.io/contributions/index-en.html">Contributions</a></li>
+{% endunless %}
+{% elsif page.url contains 'open_data/' %}
+{% unless page.url contains 'open_data/index-en.html' %}
+<li><a href="http://ogpl.github.io/open_data/index-en.html">Open Data</a></li>
+{% endunless %}
+{% elsif page.url contains 'partners/' %}
+{% unless page.url contains 'partners/index-en.html' %}
+<li><a href="http://ogpl.github.io/partners/index-en.html">Partners</a></li>
+{% endunless %}
+{% elsif page.url contains 'tools/' %}
+{% unless page.url contains 'tools/index-en.html' %}
+<li><a href="http://ogpl.github.io/tools/index-en.html">Tools</a></li>
+{% endunless %}
+{% endif %}
+<li>{{ page.title }}</li>
+</ol>
+</div></div>

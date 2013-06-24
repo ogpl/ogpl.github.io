@@ -3,9 +3,9 @@ published: true
 layout: "default-theme-ogpl-fr"
 permalink: "governance-fr.html"
 filename_root: governance
-title: "Gouvernance de la PGO sur Github"
-breadcrumb_parent1_url: "index-fr.html"
-breadcrumb_parent1_name: "À propos de la PGO"
+title: Gouvernance de la PGO sur Github
+description: French description / Description en français
+modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 ---
 
 ## Aperçu
