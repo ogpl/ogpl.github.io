@@ -1,9 +1,11 @@
 ---
 published: true
 layout: "default-theme-ogpl-en"
-permalink: "open_data-fr.html"
-filename_root: "open_data"
-title: "Données ouvertes"
+permalink: "index-fr.html"
+filename_root: index
+title: Données ouvertes
+description: French description / Description en français
+modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 ---
 
 Information générale ici

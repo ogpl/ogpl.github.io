@@ -2,10 +2,10 @@
 published: true
 layout: "default-theme-ogpl-fr"
 permalink: "licensing-fr.html"
-filename_root: "licensing"
-title: "Licences"
-breadcrumb_parent1_url: "index-fr.html"
-breadcrumb_parent1_name: "À propos de la PGO"
+filename_root: licensing
+title: Licences
+description: French description / Description en français
+modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 ---
 
 Licences ici

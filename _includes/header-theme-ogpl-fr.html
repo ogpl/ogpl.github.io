@@ -85,40 +85,11 @@ wet-boew.github.io/wet-boew/License-eng.txt / wet-boew.github.io/wet-boew/Licenc
 <nav role="navigation">
 {% if page.site_menu == false %}{% elsif site.site_menu == false and page.site_menu != true %}
 {% else %}
-<div id="ogpl-psnb"><h2>Menu du site</h2><div id="ogpl-psnb-in"><div class="wet-boew-menubar mb-mega"><div>
-<ul class="mb-menu">
-<li><div><a href="/best_practices/index-fr.html">Pratiques exemplaires</a></div></li>
-<li><div><a href="/contributions/index-fr.html">Contributions</a></div></li>
-<li><div><a href="/open_data/index-fr.html">Données ouvertes</a></div></li>
-<li><div><a href="/partners/index-fr.html">Partenaires</a></div></li>
-<li><div><a href="/tools/index-fr.html">Outils</a></div></li>
-</ul>
-</div></div></div></div>
+{% include sitemenu-theme-ogpl-fr.html %}
 {% endif %}
 {% if page.breadcrumb == false %}{% elsif site.breadcrumb == false and page.breadcrumb != true %}
 {% else %}
-
-<div id="ogpl-bc"><h2>Fil d'Ariane</h2><div id="ogpl-bc-in">
-<ol>
-<li><a href="/index-fr.html">Accueil</a></li>
-{% if page.breadcrumb_parent1_url and page.breadcrumb_parent1_url contains '.html' and page.breadcrumb_parent1_name %}
-<li><a href="{{ page.breadcrumb_parent1_url }}">{{ page.breadcrumb_parent1_name }}</a></li>
-{% if page.breadcrumb_parent2_url and page.breadcrumb_parent2_url contains '.html' and page.breadcrumb_parent2_name %}
-<li><a href="{{ page.breadcrumb_parent2_url }}">{{ page.breadcrumb_parent2_name }}</a></li>
-{% if page.breadcrumb_parent3_url and page.breadcrumb_parent3_url contains '.html' and page.breadcrumb_parent3_name %}
-<li><a href="{{ page.breadcrumb_parent3_url }}">{{ page.breadcrumb_parent3_name }}</a></li>
-{% if page.breadcrumb_parent4_url and page.breadcrumb_parent4_url contains '.html' and page.breadcrumb_parent4_name %}
-<li><a href="{{ page.breadcrumb_parent4_url }}">{{ page.breadcrumb_parent4_name }}</a></li>
-{% if page.breadcrumb_parent5_url and page.breadcrumb_parent5_url contains '.html' and page.breadcrumb_parent5_name %}
-<li><a href="{{ page.breadcrumb_parent5_url }}">{{ page.breadcrumb_parent5_name }}</a></li>
-{% endif %}
-{% endif %}
-{% endif %}
-{% endif %}
-{% endif %}
-<li>{{ page.title }}</li>
-</ol>
-</div></div>
+{% include breadcrumb-theme-ogpl-fr.html %}
 {% endif %}
 </nav>
 {% endif %}

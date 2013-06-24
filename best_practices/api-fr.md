@@ -1,14 +1,11 @@
 ---
-layout: "default-theme-ogpl-fr"
 published: true
+layout: "default-theme-ogpl-fr"
 permalink: apis-fr.html
 filename_root: apis
 title: API
-description:
-breadcrumb_parent1_url: "index-fr.html"
-breadcrumb_parent1_name: Pratiques exemplaires
-css_href:
-script_src:
+description: French description / Description en français
+modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 ---
 
 Informations API ici
