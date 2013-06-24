@@ -4,8 +4,8 @@ layout: "default-theme-ogpl-en"
 permalink: "ckan-en.html"
 filename_root: ckan
 title: CKAN
-breadcrumb_parent1_url: "index-en.html"
-breadcrumb_parent1_name: Tools
+description: English description / Description en anglais
+modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 ---
 
 ## Data Portal Tools<br>

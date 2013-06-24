@@ -2,10 +2,10 @@
 published: true
 layout: "default-theme-ogpl-en"
 permalink: "governance-en.html"
-filename_root: "governance"
-title: "OGPL Governance on Github"
-breadcrumb_parent1_url: "index-en.html"
-breadcrumb_parent1_name: "About OGPL"
+filename_root: governance
+title: OGPL Governance on Github
+description: English description / Description en anglais
+modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 ---
 
 ## Overview
