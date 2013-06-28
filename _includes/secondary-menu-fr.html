@@ -2,8 +2,7 @@
 <div class="wb-sec-def">
 <!-- SecNavStart -->
 {% if site.secondary_menu_include == 'secnav1' or page.secondary_menu_include == 'secnav1' %}
-{% if page.secondary_menu_include != '' and page.secondary_menu_include != 'secnav1' %}
-{% else %}
+{% unless page.secondary_menu_include != '' and page.secondary_menu_include != 'secnav1' %}
 <div><ul>
 <li class="top-level"><a href="#">Article 4a</a></li>
 <li class="top-level"><a href="#">Article 4b</a></li>
@@ -38,11 +37,10 @@
 <li><a href="#">Article 4.4.4</a></li>
 </ul>
 </section>
-{% endif %}
+{% endunless %}
 {% endif %}
 {% if site.secondary_menu_include == 'secnav2' or page.secondary_menu_include == 'secnav2' %}
-{% if page.secondary_menu_include != '' and page.secondary_menu_include != 'secnav2' %}
-{% else %}
+{% unless page.secondary_menu_include != '' and page.secondary_menu_include != 'secnav2' %}
 <section><h3 class="top-section"><a href="section4/index-fra.html">Section 4</a></h3>
 <div><ul>
 <li class="top-level"><a href="#">Article 4a</a></li>
@@ -79,7 +77,7 @@
 </ul>
 </section>
 </section>
-{% endif %}
+{% endunless %}
 {% endif %}
 <!-- SecNavEnd -->
 </div>

@@ -37,7 +37,7 @@ wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licen
 <!-- CustomCSSEnd -->
 </head>
 
-<body><div id="wb-body{% if page.secondary_menu == false %}{% elsif site.secondary_menu == false and page.secondary_menu != true %}{% elsif page.secondary_menu == true or site.secondary_menu == true %}-sec{% endif %}">
+<body><div id="wb-body{% if page.secondary_menu == false %}{% elsif site.secondary_menu == false and page.secondary_menu != true %}{% elsif site.secondary_menu == true or page.secondary_menu == true %}-sec{% endif %}">
 <div id="wb-skip">
 <ul id="wb-tphp">
 <li id="wb-skip1"><a href="#wb-cont">Skip to main content</a></li>
@@ -73,22 +73,27 @@ wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licen
 {% endif %}
 </div>
 {% if page.subsite == false %}{% elsif site.subsite == false and page.subsite != true %}
-{% elsif page.subsite == true or site.subsite == true %}
+{% elsif site.subsite == true or page.subsite == true %}
 <div id="ogpl-subsite" class="ogpl-subsite-1">
 <p><a href="#">Sub-site name</a></p>
 </div>
 {% endif %}
 </div>
-{% if page.site_menu == false and page.breadcrumb == false %}{% elsif page.site_menu == false and page.site_menu != true and site.breadcrumb == false and page.breadcrumb != true %}{% elsif site.site_menu == false and page.site_menu != true and page.breadcrumb == false %}{% elsif site.site_menu == false and page.site_menu != true site.breadcrumb == false and page.breadcrumb != true %}
-{% else %}
-
-<nav role="navigation">
 {% if page.site_menu == false %}{% elsif site.site_menu == false and page.site_menu != true %}
-{% else %}
-{% include sitemenu-theme-ogpl-en.html %}
+{% elsif site.site_menu == true or page.site_menu == true %}
+{% assign site_menu = true %}
 {% endif %}
 {% if page.breadcrumb == false %}{% elsif site.breadcrumb == false and page.breadcrumb != true %}
-{% else %}
+{% elsif site.breadcrumb == true or page.breadcrumb == true %}
+{% assign breadcrumb = true %}
+{% endif %}
+{% if site_menu == true and breadcrumb == true %}
+
+<nav role="navigation">
+{% if site_menu == true %}
+{% include sitemenu-theme-ogpl-en.html %}
+{% endif %}
+{% if breadcrumb == true %}
 {% include breadcrumb-theme-ogpl-en.html %}
 {% endif %}
 </nav>
