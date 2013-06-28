@@ -1,0 +1,26 @@
+{% include header-theme-ogpl-en.html %}            
+
+<div id="wb-core"><div id="wb-core-in" class="equalize">
+<div id="wb-main" role="main"><div id="wb-main-in">
+<!-- MainContentStart -->
+<h1 id="wb-cont">{{ page.title }}</h1>
+
+{% include content-buttons-en.html %}
+{{ content }}
+
+{% if page.modified == null or page.modified == '' %}{% elsif page.date_modified == false %}{% elsif site.date_modified == false and page.date_modified != true %}
+{% else %}
+<dl id="ogpl-date-mod" role="contentinfo">
+<dt>Date modified:</dt><dd><span><time>{{ page.modified }}</time></span></dd>
+</dl>
+{% endif %}
+<div class="clear"></div>
+<!-- MainContentEnd -->
+</div></div>
+{% if page.secondary_menu == false %}{% elsif site.secondary_menu == false and page.secondary_menu != true %}
+{% elsif site.secondary_menu == true or page.secondary_menu == true %}
+{% include secondary-menu-en.html %}
+{% endif %}
+</div></div>
+
+{% include footer-theme-ogpl-en.html %}  
