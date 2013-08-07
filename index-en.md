@@ -17,7 +17,7 @@ breadcrumb: false
   * [API](/best_practices/apis-en.html)
   * [Metadata](/best_practices/metadata-en.html)
 * [Contributions](/contributions/index-en.html)
-* [Open Data](/open_data/open_data-en.html)
+* [Open Data](/open_data/index-en.html)
 * [Partners](/partners/index-en.html)
   * [Canada](/partners/canada-en.html)
   * [United States of America](/partners/usa-en.html)
