@@ -5,7 +5,7 @@ permalink: "index-en.html"
 filename_root: index
 title: Open Government Platform
 description: English description / Description en anglais
-modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
+modified: "2013-06-24"
 breadcrumb: false
 ---
 
