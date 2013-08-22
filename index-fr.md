@@ -5,7 +5,7 @@ permalink: "index-fr.html"
 filename_root: index
 title: Plate-forme de gouvernement ouvert
 description: French description / Description en français
-modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
+modified: "2013-06-24"
 breadcrumb: false
 ---
 
