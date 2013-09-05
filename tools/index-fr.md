@@ -1,8 +1,8 @@
 ---
 published: true
 layout: "default-theme-ogpl-fr"
-permalink: "ckan-fr.html"
-filename_root: ckan
+permalink: "tools-fr.html"
+filename_root: tools
 title: Outils
 description: French description / Description en français
 modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
