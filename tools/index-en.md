@@ -10,4 +10,4 @@ modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 
 * [CKAN](ckan-en.html)
 * [Drupal](drupal-en.html)
-* [Web Experience Toolkit (WET)](/tools/wet-boew-en.html)
+* [Web Experience Toolkit (WET)](wet-boew-en.html)
