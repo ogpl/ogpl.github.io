@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-ogpl-fr"
+layout: "default-theme-ogpl-en"
 permalink: "wet-boew-en.html"
 filename_root: wet-boew
 title: Web Experience Toolkit (WET)
