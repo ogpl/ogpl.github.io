@@ -65,9 +65,9 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 {% else %}
 
 <section role="search"><div id="ogpl-srchbx"><h2>Search</h2>
-<form action="#" method="post"><div id="ogpl-srchbx-in">
-<label for="ogpl-srch">Search website</label><input id="ogpl-srch" name="ogpl-srch" type="search" value="" size="27" maxlength="150" />
-<input id="ogpl-srch-submit" name="ogpl-srch-submit" type="submit" value="Search" data-icon="search" class="button button-accent" />
+<form action="https://google.ca/search" method="get"><div id="ogpl-srchbx-in">
+<label for="ogpl-srch">Search website</label><input id="ogpl-srch" name="q" type="search" value="" size="27" maxlength="150" /><input type="hidden" name="q" value="site:opgl.github.io OR github.com/ogpl/" />
+<input id="ogpl-srch-submit" type="submit" value="Search" data-icon="search" class="button button-accent" />
 </div></form>
 </div></section>
 {% endif %}
