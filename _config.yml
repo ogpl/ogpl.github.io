@@ -12,6 +12,9 @@ root_url: "http://ogpl.github.io"
 org_name: "ogpl"
 prose_url: "http://prose.io"
 
+#use the latest Markdown interpreter
+markdown: kramdown
+
 # default build settings for running locally, no need to edit
 pymgemnts: true
 exclude: ['README.md']
