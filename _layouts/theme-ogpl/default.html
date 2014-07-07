@@ -69,14 +69,18 @@
 {% if page.sitemenu == "false" %}
 			<span data-trgt="mb-pnl" class="wb-menu hide"></span>
 {% else %}
-			<nav role="navigation" id="wb-sm" data-ajax-fetch="{% if page.altMenu == null or page.altMenu == '' %}http://wet-boew.github.io/wet-boew/ajax/sitemenu{% else %}{{ page.altMenu }}{% endif %}-{{ page.language }}.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
-				{% include base/sitemenu.html %}
+			<nav role="navigation" id="wb-sm" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+				{% include theme-ogpl/sitemenu.html %}
 			</nav>
 {% endif %}
 {% unless page.breadcrumb == "false" %}
 			<nav role="navigation" id="wb-bc" property="breadcrumb">
 				<h2>{{ site.data.i18n-base[page.language].you-are-here }}</h2>
+	{% unless page.url contains "theme-ogpl" %}
+				{% include theme-ogpl/breadcrumbs.html %}
+	{% else }
 				{% include base/breadcrumbs.html %}
+	{% endunless %}
 			</nav>
 {% endunless %}
 		</header>

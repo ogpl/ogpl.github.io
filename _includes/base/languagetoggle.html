@@ -1,4 +1,4 @@
-{% if page.url contains 'gcweb' %}
+{% if page.layout contains 'gcweb' %}
 <div class="row">
 	<div class="col-md-12">
 		<ul class="list-inline margin-bottom-none">
@@ -13,7 +13,7 @@
 		</ul>
 	</div>
 </div>
-{% elsif page.url contains 'theme-gcwu-fegc' %}
+{% elsif page.layout contains 'theme-gcwu-fegc' %}
 <li id="wb-lng">
 	<h2>{{ site.data.i18n-base[page.language].tmpl-lang-select }}</h2>
 	<ul class="list-inline">
@@ -27,7 +27,7 @@
 	{% endif %}
 	</ul>
 </li>
-{% elsif page.url contains 'theme-gc-intranet' %}
+{% elsif page.layout contains 'theme-gc-intranet' %}
 <section id="wb-lng">
 	<h2>{{ site.data.i18n-base[page.language].tmpl-lang-select }}</h2>
 	<ul class="list-inline">

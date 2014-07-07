@@ -1,0 +1,35 @@
+<div class="container">
+	<div class="row">
+		<ol class="breadcrumb">
+			<li>
+				<a href="http://ogpl.github.io/index-{{ page.language }}.html">{{ site.data.i18n-base[page.language].tmpl-home }}</a>
+			</li>
+{% if page.url contains "about/" %}
+	{% unless page.url contains "about/index-" %}
+			<li><a href="http://ogpl.github.io/about/index-{{ page.language }}.html">{{ site.data.i18n-theme-ogpl[page.language].site-about }}</a></li>
+	{% endunless %}
+{% elsif page.url contains "best_practices/" %}
+	{% unless page.url contains "best_practices/index-" %}
+			<li><a href="http://ogpl.github.io/best_practices/index-{{ page.language }}.html">{{ site.data.i18n-theme-ogpl[page.language].best-practices }}</a></li>
+	{% endunless %}
+{% elsif page.url contains "contributions/" %}
+	{% unless page.url contains "contributions/index-" %}
+			<li><a href="http://ogpl.github.io/contributions/index-{{ page.language }}.html">{{ site.data.i18n-theme-ogpl[page.language].contributions }}</a></li>
+	{% endunless %}
+{% elsif page.url contains "open_data/" %}
+	{% unless page.url contains "open_data/index-" %}
+			<li><a href="http://ogpl.github.io/open_data/index-{{ page.language }}.html">{{ site.data.i18n-theme-ogpl[page.language].open-data }}</a></li>
+	{% endunless %}
+{% elsif page.url contains "partners/" %}
+	{% unless page.url contains "partners/index-" %}
+			<li><a href="http://ogpl.github.io/partners/index-{{ page.language }}.html">{{ site.data.i18n-theme-ogpl[page.language].partners }}</a></li>
+	{% endunless %}
+{% elsif page.url contains "tools/" %}
+	{% unless page.url contains "tools/index-" %}
+			<li><a href="http://ogpl.github.io/tools/index-{{ page.language }}.html">{{ site.data.i18n-theme-ogpl[page.language].tools }}</a></li>
+	{% endunless %}
+{% endif %}	
+			<li>{{ page.title }}</li>
+		</ol>
+	</div>
+</div>
