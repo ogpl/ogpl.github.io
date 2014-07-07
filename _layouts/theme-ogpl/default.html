@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang="{{ page.language }}" dir="{{ site.data.i18n-base[page.language].lang-dir }}"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="{{ page.language }}" dir="{{ site.data.i18n-base[page.language].lang-dir }}">
+<!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+		<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+		<title>{{ page.title }}</title>
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
+		<!-- Meta data -->
+		<meta name="description" content="{% if page.description == null or page.description == '' %}{{ site.data.i18n-ogpl[page.language].site-description }}{% else %}{{ page.description }}{% endif %}" />
+		<!-- Meta data-->
+		{% include base/headresources.html %}
+	</head>
+	<body vocab="http://schema.org/" typeof="WebPage">
+		<ul id="wb-tphp">
+			<li class="wb-slc">
+				<a class="wb-sl" href="#wb-cont">{{ site.data.i18n-base[page.language].tmpl-skip-cont }}</a>
+			</li>
+{% unless page.footer == "false" %}
+			<li class="wb-slc visible-md visible-lg">
+				<a class="wb-sl" href="#wb-info">{{ site.data.i18n-base[page.language].tmpl-skip-info }}</a>
+			</li>
+{% endunless %}
+{% if page.secondarymenu == "true" %}
+			<li class="wb-slc visible-md visible-lg">
+				<a class="wb-sl" href="#wb-sec">{{ site.data.i18n-base[page.language].tmpl-skip-sec }}</a>
+			</li>
+{% endif %}
+		</ul>
+		<header role="banner">
+			<div id="wb-bnr">
+				<div id="wb-bar">
+					<div class="container">
+						<div class="row">
+{% unless page.languagetoggle == "false" %}
+							<section id="wb-lng" class="visible-md visible-lg">
+								<h2>{{ site.data.i18n-base[page.language].tmpl-lang-select }}</h2>
+								{% include base/languagetoggle.html %}
+							</section>
+{% endunless %}
+{% unless page.mobimenu == "false" %}
+							<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
+								<h2>{{ site.data.i18n-base[page.language].menu }}</h2>
+								{% include base/mobimenu.html %}
+							</section>
+{% endunless %}
+						</div>
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="row">
+
+						<div id="wb-sttl" class="col-md-8">
+							{% include theme-ogpl/brand.html %}
+						</div>
+{% unless page.sitesearch == "false" %}
+						<section id="wb-srch" class="col-md-4 visible-md visible-lg">
+							<h2>{{ site.data.i18n-base[page.language].tmpl-search }}</h2>
+							{% include base/sitesearch.html %}
+						</section>
+{% endunless %}
+					</div>
+				</div>
+			</div>
+{% if page.sitemenu == "false" %}
+			<span data-trgt="mb-pnl" class="wb-menu hide"></span>
+{% else %}
+			<nav role="navigation" id="wb-sm" data-ajax-fetch="{% if page.altMenu == null or page.altMenu == '' %}http://wet-boew.github.io/wet-boew/ajax/sitemenu{% else %}{{ page.altMenu }}{% endif %}-{{ page.language }}.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+				{% include base/sitemenu.html %}
+			</nav>
+{% endif %}
+{% unless page.breadcrumb == "false" %}
+			<nav role="navigation" id="wb-bc" property="breadcrumb">
+				<h2>{{ site.data.i18n-base[page.language].you-are-here }}</h2>
+				{% include base/breadcrumbs.html %}
+			</nav>
+{% endunless %}
+		</header>
+
+{% if page.secondarymenu == "true" %}
+		<div class="container">
+			<div class="row">
+{% endif %}
+		<main role="main" property="mainContentOfPage" class="{% if page.secondarymenu == "true" %}col-md-9 col-md-push-3{% else %}container{% endif %}">
+			<h1 id="wb-cont" property="name">{{ page.title }}</h1>
+			{% include base/contentbuttons.html %}
+			{{ content }}
+{% if page.modified == null or page.modified == '' %}
+{% else %}
+			{% include base/datemodified.html %}
+{% endif %}
+		</main>
+{% if page.secondarymenu == "true" %}
+				<nav role="navigation" id="wb-sec" typeof="SiteNavigationElement" class="col-md-3 col-md-pull-9 visible-md visible-lg">
+					<h2>{{ site.data.i18n-base[page.language].tmpl-sec-menu }}</h2>
+					{% include base/secondarymenu.html %}
+				</nav>
+			</div>
+		</div>
+{% endif %}
+
+{% unless page.footer == "false" %}
+		<footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr">
+			<div class="container">
+				<nav role="navigation" class="row">
+					<h2>{{ site.data.i18n-base[page.language].tmpl-site-info }}</h2>
+					{% include theme-ogpl/footer.html %}
+				</nav>
+			</div>
+		</footer>
+{% endunless %}
+		{% include base/footerresources.html %}
+	</body>
+</html>

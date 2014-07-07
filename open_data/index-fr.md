@@ -1,11 +1,12 @@
 ---
 published: true
-layout: "default-theme-ogpl-en"
+layout: "theme-ogpl/default"
 permalink: "index-fr.html"
-filename_root: index
 title: Données ouvertes
-description: French description / Description en français
-modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
+language: fr
+altLangPrefix: index
+dateModified: "2014-07-07"
+description: Information générale à propos des données ouvertes
 ---
 
 Information générale ici

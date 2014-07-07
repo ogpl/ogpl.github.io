@@ -1,11 +1,12 @@
 ---
 published: true
-layout: "default-theme-ogpl-fr"
+layout: "theme-ogpl/default"
 permalink: "canada-fr.html"
-filename_root: canada
 title: Canada
-description: French description / Description en français
-modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
+language: fr
+altLangPrefix: canada
+dateModified: "2014-07-07"
+description: Information sur les données ouvertes canadien
 ---
 
 Information sur les données ouvertes canadien ici

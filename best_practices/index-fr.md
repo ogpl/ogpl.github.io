@@ -1,11 +1,12 @@
 ---
 published: true
-layout: "default-theme-ogpl-fr"
+layout: "theme-ogpl/default"
 permalink: "index-fr.html"
-filename_root: index
 title: Pratiques exemplaires
-description: French description / Description en français
-modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
+language: fr
+altLangPrefix: index
+dateModified: "2014-07-07"
+description: Pratiques exemplaires
 ---
 
 * [API](/best_practices/apis-fr.html)

@@ -1,11 +1,12 @@
 ---
 published: true
-layout: "default-theme-ogpl-en"
+layout: "theme-ogpl/default"
 permalink: "usa-en.html"
-filename_root: usa
 title: United States of America
-description: English description / Description en anglais
-modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
+language: en
+altLangPrefix: usa
+dateModified: "2014-07-07"
+description: Information on United States of America Open Data
 ---
 
 Information on United States of America Open Data goes here

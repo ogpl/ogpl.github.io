@@ -1,11 +1,12 @@
 ---
 published: true
-layout: "default-theme-ogpl-en"
+layout: "theme-ogpl/default"
 permalink: "governance-en.html"
-filename_root: governance
 title: OGPL Governance on Github
-description: English description / Description en anglais
-modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
+language: en
+altLangPrefix: governance
+dateModified: "2014-07-07"
+description: About the governance of OGPL on GitHub.
 ---
 
 ## Overview
@@ -116,6 +117,7 @@ OGPL communications and collaboration will allow for interactions on the Github 
 Meetings will occur online and will be captured through online minutes and/or recordings, and shared with the community.
 
 ## References
+
 1. Organizations in GitHub: https://github.com/blog/674-introducing-organizations
 2. GitHub Workflow: http://scottchacon.com/2011/08/31/github-flow.html
 3. CKAN GitHub workflow: https://github.com/okfn/ckan/blob/master/CONTRIBUTING.rst

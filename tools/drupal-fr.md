@@ -1,11 +1,12 @@
 ---
 published: true
-layout: "default-theme-ogpl-fr"
+layout: "theme-ogpl/default"
 permalink: "drupal-fr.html"
-filename_root: drupal
 title: Drupal
-description: English description / Description en anglais
-modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
+language: fr
+altLangPrefix: drupal
+dateModified: "2014-07-07"
+description: Information à propos de Drupal
 ---
 
 Documentation Drupal ici

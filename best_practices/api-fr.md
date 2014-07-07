@@ -1,11 +1,12 @@
 ---
 published: true
-layout: "default-theme-ogpl-fr"
-permalink: apis-fr.html
-filename_root: apis
-title: API
-description: French description / Description en français
-modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
+layout: "theme-ogpl/default"
+permalink: "apis-fr.html"
+title: APIs
+language: en
+altLangPrefix: apis
+dateModified: "2014-07-07"
+description: Informations API
 ---
 
 Informations API ici

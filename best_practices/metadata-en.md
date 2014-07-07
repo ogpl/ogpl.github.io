@@ -1,11 +1,12 @@
 ---
 published: true
-layout: "default-theme-ogpl-en"
-permalink: metadata-en.html
-filename_root: metadata
-title: Metadata
-description: English description / Description en anglais
-modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
+layout: "theme-ogpl/default"
+permalink: "metadata-en.html"
+title: Best Practices
+language: en
+altLangPrefix: metadata
+dateModified: "2014-07-07"
+description: Metadata information
 ---
 
 Metadata information goes here

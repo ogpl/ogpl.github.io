@@ -1,11 +1,12 @@
 ---
 published: true
-layout: "default-theme-ogpl-fr"
+layout: "theme-ogpl/default"
 permalink: "licensing-fr.html"
-filename_root: licensing
 title: Licences
-description: French description / Description en français
-modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
+language: fr
+altLangPrefix: licensing
+dateModified: "2014-07-07"
+description: Licences de la Plate-forme de gouvernement ouvert (PGO)
 ---
 
 Licences ici

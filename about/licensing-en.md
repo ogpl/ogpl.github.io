@@ -1,11 +1,12 @@
 ---
 published: true
-layout: "default-theme-ogpl-en"
+layout: "theme-ogpl/default"
 permalink: "licensing-en.html"
-filename_root: licensing
 title: Licenses
-description: English description / Description en anglais
-modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
+language: en
+altLangPrefix: licensing
+dateModified: "2014-07-07"
+description: Licensing information for the Open Government Platform (OGPL)
 ---
 
 Licensing information goes here
