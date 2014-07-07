@@ -3,11 +3,11 @@
     <div class="row">
         <ul class="list-inline menu">
 {% if page.altMenu == null or  page.altMenu == '' %}
-			<li><a href="http://ogpl.github.io/best_practices/index-{ page.language }.html">{{ site.data.i18n-theme-ogpl[page.language].best-practices }}</a></li>
-			<li><a href="http://ogpl.github.io/contributions/index-{ page.language }.html#implement">{{ site.data.i18n-theme-ogpl[page.language].contributions }}</a></li>
-			<li><a href="http://ogpl.github.io/open_data/index-{ page.language }.html">{{ site.data.i18n-theme-ogpl[page.language].open-data }}</a></li>
-			<li><a href="http://ogpl.github.io/partners/index-{ page.language }.html">{{ site.data.i18n-theme-ogpl[page.language].partners }}</a></li>
-			<li><a href="http://ogpl.github.io/tools/index-{ page.language }.html">{{ site.data.i18n-theme-ogpl[page.language].tools }}</a></li>
+			<li><a href="http://ogpl.github.io/best_practices/index-{{ page.language }}.html">{{ site.data.i18n-theme-ogpl[page.language].best-practices }}</a></li>
+			<li><a href="http://ogpl.github.io/contributions/index-{{ page.language }}.html">{{ site.data.i18n-theme-ogpl[page.language].contributions }}</a></li>
+			<li><a href="http://ogpl.github.io/open_data/index-{{ page.language }}.html">{{ site.data.i18n-theme-ogpl[page.language].open-data }}</a></li>
+			<li><a href="http://ogpl.github.io/partners/index-{{ page.language }}.html">{{ site.data.i18n-theme-ogpl[page.language].partners }}</a></li>
+			<li><a href="http://ogpl.github.io/tools/index-{{ page.language }}.html">{{ site.data.i18n-theme-ogpl[page.language].tools }}</a></li>
 {% else %}
 			<li><a href="#">{{ site.data.i18n-base[page.language].tmpl-section }}{{ site.data.i18n-base[page.language].space }}1</a></li>
 			<li><a href="#">{{ site.data.i18n-base[page.language].tmpl-section }}{{ site.data.i18n-base[page.language].space }}2</a></li>
