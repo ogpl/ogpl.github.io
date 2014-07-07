@@ -1,8 +1,8 @@
-{% if page.url contains 'gcweb' %}
+{% if page.layout contains 'gcweb' %}
 <ul class="list-inline text-right chvrn">
 {% else %}
 <ul class="pnl-btn list-inline text-right">
 {% endif %}
-	<li><a href="#mb-pnl" title="{{ site.data.i18n-base[page.language].menu }}" aria-controls="mb-pnl" class="overlay-lnk{% if page.url contains 'gcweb' %}{% else %} btn btn-xs btn-default{% endif %}" role="button"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">{{ site.data.i18n-base[page.language].menu }}</span></span></a></li>
+	<li><a href="#mb-pnl" title="{{ site.data.i18n-base[page.language].menu }}" aria-controls="mb-pnl" class="overlay-lnk{% if page.layout contains 'gcweb' %}{% else %} btn btn-xs btn-default{% endif %}" role="button"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">{{ site.data.i18n-base[page.language].menu }}</span></span></a></li>
 </ul>
 <div id="mb-pnl"></div>

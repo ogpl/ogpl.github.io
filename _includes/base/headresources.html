@@ -1,43 +1,43 @@
 <!--[if gte IE 9 | !IE ]><!-->
-{% if page.url contains 'gcweb' %}
+{% if page.layout contains 'gcweb' %}
 <link href="http://wet-boew.github.io/themes-dist/GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon" />
-{% elsif page.url contains 'theme-gcwu-fegc' %}
+{% elsif page.layout contains 'theme-gcwu-fegc' %}
 <link href="http://wet-boew.github.io/themes-dist/theme-gcwu-fegc/assets/favicon.ico" rel="icon" type="image/x-icon" />
-{% elsif page.url contains 'theme-gc-intranet' %}
+{% elsif page.layout contains 'theme-gc-intranet' %}
 <link href="http://wet-boew.github.io/themes-dist/theme-gc-intranet/assets/favicon.ico" rel="icon" type="image/x-icon" />
-{% elsif page.url contains 'theme-base' %}
+{% elsif page.layout contains 'theme-base' %}
 <link href="http://wet-boew.github.io/themes-dist/theme-base/assets/favicon.ico" rel="icon" type="image/x-icon" />
-{% elsif page.url contains 'theme-ogpl' %}
+{% elsif page.layout contains 'theme-ogpl' %}
 <link href="http://wet-boew.github.io/themes-dist/theme-ogpl/assets/favicon.ico" rel="icon" type="image/x-icon" />
 {% else %}
 <link href="http://wet-boew.github.io/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon" />
 {% endif %}
 <link rel="stylesheet" href="http://wet-boew.github.io/wet-boew/css/wet-boew.min.css" />
 <!--<![endif]-->
-{% if page.url contains 'gcweb' %}
+{% if page.layout contains 'gcweb' %}
 <link rel="stylesheet" href="http://wet-boew.github.io/themes-dist/GCWeb/css/theme.min.css" />
-{% elsif page.url contains 'theme-gcwu-fegc' %}
+{% elsif page.layout contains 'theme-gcwu-fegc' %}
 <link rel="stylesheet" href="http://wet-boew.github.io/themes-dist/theme-gcwu-fegc/css/theme.min.css" />
-{% elsif page.url contains 'theme-gc-intranet' %}
+{% elsif page.layout contains 'theme-gc-intranet' %}
 <link rel="stylesheet" href="http://wet-boew.github.io/themes-dist/theme-gc-intranet/css/theme.min.css" />
-{% elsif page.url contains 'theme-base' %}
+{% elsif page.layout contains 'theme-base' %}
 <link rel="stylesheet" href="http://wet-boew.github.io/themes-dist/theme-base/css/theme.min.css" />
-{% elsif page.url contains 'theme-ogpl' %}
+{% elsif page.layout contains 'theme-ogpl' %}
 <link rel="stylesheet" href="http://wet-boew.github.io/themes-dist/theme-ogpl/css/theme.min.css" />
 {% else %}
 <link rel="stylesheet" href="http://wet-boew.github.io/wet-boew/css/theme.min.css" />
 {% endif %}
 {% if page.css == null or page.css == '' %}{% else %}{% for css in page.css %}<link rel="stylesheet" href="{{ css }}.min.css"> />{% endfor %}{% endif %}
 <!--[if lt IE 9]>
-{% if page.url contains 'gcweb' %}
+{% if page.layout contains 'gcweb' %}
 <link href="http://wet-boew.github.io/themes-dist/GCWeb/assets/favicon.ico" rel="shortcut icon" />
-{% elsif page.url contains 'theme-gcwu-fegc' %}
+{% elsif page.layout contains 'theme-gcwu-fegc' %}
 <link href="http://wet-boew.github.io/themes-dist/theme-gcwu-fegc/assets/favicon.ico" rel="shortcut icon" />
-{% elsif page.url contains 'theme-gc-intranet' %}
+{% elsif page.layout contains 'theme-gc-intranet' %}
 <link href="http://wet-boew.github.io/themes-dist/theme-gc-intranet/assets/favicon.ico" rel="shortcut icon" />
-{% elsif page.url contains 'theme-base' %}
+{% elsif page.layout contains 'theme-base' %}
 <link href="http://wet-boew.github.io/themes-dist/theme-base/assets/favicon.ico" rel="shortcut icon" />
-{% elsif page.url contains 'theme-ogpl' %}
+{% elsif page.layout contains 'theme-ogpl' %}
 <link href="http://wet-boew.github.io/themes-dist/theme-ogpl/assets/favicon.ico" rel="shortcut icon" />
 {% else %}
 <link href="http://wet-boew.github.io/wet-boew/assets/favicon.ico" rel="shortcut icon" />
