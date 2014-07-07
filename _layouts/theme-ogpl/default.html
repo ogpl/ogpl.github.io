@@ -76,11 +76,11 @@
 {% unless page.breadcrumb == "false" %}
 			<nav role="navigation" id="wb-bc" property="breadcrumb">
 				<h2>{{ site.data.i18n-base[page.language].you-are-here }}</h2>
-	{% unless page.url contains "theme-ogpl" %}
-				{% include theme-ogpl/breadcrumbs.html %}
-	{% else }
+	{% if page.url contains "theme-ogpl" %}
 				{% include base/breadcrumbs.html %}
-	{% endunless %}
+	{% else %}
+				{% include theme-ogpl/breadcrumbs.html %}
+	{% endif %}
 			</nav>
 {% endunless %}
 		</header>
