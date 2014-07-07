@@ -1,39 +1,30 @@
 ---
 published: true
-layout: "default-theme-ogpl-fr"
+layout: "theme-ogpl/default"
 permalink: "wet-boew-fr.html"
-filename_root: wet-boew
 title: Boîte à outils de l'expérience Web (BOEW)
+language: fr
+altLangPrefix: wet-boew
+dateModified: "2014-07-07"
 description: La Boîte à outils de l’expérience Web (BOEW) rassemble différents composants réutilisables et prêts-à-utiliser pour la conception et la mise à jour de sites Web innovateurs qui sont à la fois accessibles, conviviaux et interopérables. Tous ces composants réutilisables sont des logiciels libres mis à la disposition des ministères et des collectivités Web externes.
-modified: "2013-09-05"
 ---
 
 ## Qu’est-ce que la Boîte à outils de l’expérience Web?
 
-* Open source code library used to build and maintain this website.
-* Un projet à source ouverte collaboratif dirigé par le Gouvernement du Canada et utilisé pour la conception et la mise à jour du site de la Plate-forme de gouvernement ouvert (PGO).
-* Collaborative open source project led by the Government of Canada and used to build and maintain the OGPL website.
-* Une bibliothèque de code [primée](https://github.com/wet-boew/wet-boew/wiki/Distinctions#wiki-Primes) pour construire des sites Web innovants&#160;:
- * [Accessibles](#accessibilit), [faciles d'emploi](#facilit-demploi) et [interopérables](#interoprabilit)
- * [Optimisés pour les appareils mobiles](#conception-optimise-pour-les-appareils-mobiles-et-ractive)
- * [Multilingues](#multilingue)
-* [Des modèles, ainsi que des composants réutilisables, qui sont flexibles et personnalisables](#personnalisable-et-rutilisable)
-* Un logiciel libre
- * Libre d'utilisation à des fins commerciales et non commerciales (licence MIT - [Conditions régissant l'utilisation](http://wet-boew.github.io/wet-boew/License-fr.html))
- * [Développé ouvertement sur GitHub par la communauté](#approche-collaborative)
+* Une bibliothèque de code [primée](http://wet-boew.github.io/wet-boew/docs/ref/accolades-fr.html#primes) pour construire des sites Web [accessibles](http://wet-boew.github.io/wet-boew/index-fr.html#accessibilit), [faciles d'emploi](http://wet-boew.github.io/wet-boew/index-fr.html#facilit-demploi), [interopérables](http://wet-boew.github.io/wet-boew/index-fr.html#interoprabilit), [optimisés pour les appareils mobiles](http://wet-boew.github.io/wet-boew/index-fr.html#conception-optimise-pour-les-appareils-mobiles-et-ractive) et [multilingues](http://wet-boew.github.io/wet-boew/index-fr.html#multilingue)
+* [Des modèles, ainsi que des composants réutilisables, qui sont flexibles et personnalisables](http://wet-boew.github.io/wet-boew/index-fr.html#personnalisable-et-rutilisable)
+* Un [projet à source ouverte collaboratif dirigé par le Gouvernement du Canada](http://wet-boew.github.io/wet-boew/index-fr.html#approche-collaborative)
 
 ## Ressources clés
- 
-* [Avantages](#avantages)
+
+* [Documentation](http://wet-boew.github.io/wet-boew/docs/index-fr.html)
+* [Téléchargements](http://wet-boew.github.io/wet-boew/docs/versions/dwnld-fr.html)
 * [Exemples pratiques](http://wet-boew.github.io/wet-boew/demos/index-fr.html)
-* [Documentation](https://github.com/wet-boew/wet-boew/wiki/Accueil#wiki-Documentation)
-* [Téléchargements](https://github.com/wet-boew/wet-boew/wiki/T%C3%A9l%C3%A9chargements)
-* [Projet principal](https://github.com/wet-boew/wet-boew/)
-* [Conditions régissant l'utilisation](http://wet-boew.github.io/wet-boew/Licence-fr.html)
-* [Lignes directrices pour les contributeurs](https://github.com/wet-boew/wet-boew/wiki/Lignes-directrices-pour-les-contributeurs)
-* [Contrôle des versions](https://github.com/wet-boew/wet-boew/wiki/Contr%C3%B4le-des-versions)
-* [Historique des versions](http://wet-boew.github.io/wet-boew/index-fr.html#historique-des-versions)
-* [Feuille de route](https://github.com/wet-boew/wet-boew/wiki/Feuille-de-route)
+* [Historique des versions](http://wet-boew.github.io/wet-boew/docs/versions/index-fr.html) et [feuille de route](http://wet-boew.github.io/wet-boew/docs/versions/rdmp-fr.html)
+* [Conditions régissant l'utilisation](http://wet-boew.github.io/wet-boew/Licence-fr.html) (licence MIT)
+* [Dépôt de code source](https://github.com/wet-boew/wet-boew/) et [lignes directrices pour les contributeurs](http://wet-boew.github.io/wet-boew/docs/start-fr.html#develop)
+* [Matériel de communications](http://wet-boew.github.io/wet-boew/docs/comms-fr.html)
+* [Sites Web qui se servent de la BOEW](http://wet-boew.github.io/wet-boew/docs/ref/wetsites-fr.html)
 
 ## Avantages
 
@@ -52,12 +43,12 @@ modified: "2013-09-05"
 
 * Approche centrée sur le [HTML5](http://www.w3.org/TR/html5/) (s'appuyant sur le soutien HTML5 natif et puis les &laquo;correctifs&raquo; pour résoudre les problèmes de soutien)
 * Soutien pour plusieurs navigateurs (IE, Firefox, Chrome, Safari, Opera)
-* Soutien en développement pour les données HTML ([RDFa 1.1 Lite](http://www.w3.org/TR/rdfa-lite/), [Schema.org](http://http://www.schema.org/))
+* Soutien en développement pour les données HTML ([RDFa 1.1 Lite](http://www.w3.org/TR/rdfa-lite/), [Schema.org](http://www.schema.org/))
 
 ### Conception optimisée pour les appareils mobiles et réactive
 
 * S'adapte à différentes tailles d'écran et capacités d'appareil
-* Soutien pour les écrans tactiles ([jQuery Mobile](http://www.jquerymobile.com))
+* Soutien pour les écrans tactiles
 * Optimisé pour les performances
 * Soutien en développement pour les applications s’installant sur un appareil mobile
 
@@ -101,9 +92,9 @@ modified: "2013-09-05"
 ### Personnalisable et réutilisable
 
 * Cadre flexible qui supporte des thèmes personnalisés
-* Soutien 5 thèmes différents, y compris un thème de base servant comme modèle
-* Modèles, plugiciels et gadgets réutilisables
-* Adapté aux différents systèmes de gestion de contenu et cadres de programmation (Drupal, WordPress, SharePoint (en développement), DotNetNuke (en développement), PHP, SSI, Java/Maven)
+* Soutien [5 thèmes différents](http://wet-boew.github.io/wet-boew/docs/ref/themesstyle-fr.html), y compris un [thème de base](http://wet-boew.github.io/themes-dist/theme-base/docs/ref/theme-base/theme-base-fr.html) servant comme modèle
+* Modèles, [plugiciels](http://wet-boew.github.io/wet-boew/docs/ref/plugins-fr.html) et gadgets réutilisables
+* [Adapté aux différents systèmes de gestion de contenu et cadres de programmation](http://wet-boew.github.io/wet-boew/docs/ref/variants-fr.html) (Drupal, WordPress, SharePoint (en développement), DotNetNuke (en développement), PHP, SSI, Java/Maven)
 
 ### Réduit les coûts en partageant et en collaborant ouvertement
 

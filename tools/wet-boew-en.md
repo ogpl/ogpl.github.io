@@ -1,41 +1,34 @@
 ---
 published: true
-layout: "default-theme-ogpl-en"
+layout: "theme-ogpl/default"
 permalink: "wet-boew-en.html"
-filename_root: wet-boew
 title: Web Experience Toolkit (WET)
-description: Web Experience Toolkit (WET) includes reusable components for building and maintaining innovative Web sites that are accessible, usable, and interoperable. These reusable components are open source software and free for use by departments and external Web communities.
-modified: "2013-09-05"
+language: en
+altLangPrefix: wet-boew
+dateModified: "2014-07-07"
+description: Information about the Web Experience Toolkit (WET)
 ---
 
 ## What is the Web Experience Toolkit?
 
-* Collaborative open source project led by the Government of Canada and used to build and maintain the Open Government Platform (OGPL) website.
-* [Award-winning](https://github.com/wet-boew/wet-boew/wiki/Accolades#wiki-Awards) code library for building innovative websites that are:
- * [Accessible](#accessibility), [usable](#usability) and [interoperable](#interoperability)
- * [Mobile friendly](#mobile-friendly-responsive-design)
- * [Multilingual](#multilingual)
-* [Flexible and themeable templates and reusable components](#themeable-and-reusable)
-* Open source software
- * Free to use for commercial and non-commercial purposes (MIT license - [Terms and conditions](http://wet-boew.github.io/wet-boew/License-en.html))
- * [Developed openly by the community on GitHub](#collaborative-approach)
+* An [award-winning](http://wet-boew.github.io/wet-boew/docs/ref/accolades-en.html#awards) front-end framework for building websites that are [accessible](http://wet-boew.github.io/wet-boew/index-en.html#accessibility), [usable](http://wet-boew.github.io/wet-boew/index-en.html#usability), [interoperable](http://wet-boew.github.io/wet-boew/index-en.html#interoperability), [mobile friendly](http://wet-boew.github.io/wet-boew/index-en.html#mobile-friendly-responsive-design) and [multilingual](http://wet-boew.github.io/wet-boew/index-en.html#multilingual)
+* A collection of [flexible and themeable templates and reusable components](http://wet-boew.github.io/wet-boew/index-en.html#themeable-and-reusable)
+* A [collaborative open source project led by the Government of Canada](http://wet-boew.github.io/wet-boew/index-en.html#collaborative-approach)
 
 ## Key resources
- 
-* [Benefits](#benefits)
-* [Working examples](http://wet-boew.github.io/wet-boew/demos/index-en.html)
-* [Documentation](https://github.com/wet-boew/wet-boew/wiki#wiki-Documentation)
-* [Downloads](https://github.com/wet-boew/wet-boew/wiki/Downloads)
-* [Main project](https://github.com/wet-boew/wet-boew/)
-* [Terms and conditions](http://wet-boew.github.io/wet-boew/License-en.html)
-* [Contributor guidelines](https://github.com/wet-boew/wet-boew/wiki/Contributor-guidelines)
-* [Versioning](https://github.com/wet-boew/wet-boew/wiki/Versioning)
-* [Version history](http://wet-boew.github.io/wet-boew/index-en.html#version-history)
-* [Roadmap](https://github.com/wet-boew/wet-boew/wiki/Roadmap)
+
+* [Documentation](http://wet-boew.github.io/wet-boew/docs/index-en.html)
+* [Downloads](http://wet-boew.github.io/wet-boew/docs/versions/dwnld-en.html)
+* [Examples](http://wet-boew.github.io/wet-boew/demos/index-en.html)
+* [Version history](http://wet-boew.github.io/wet-boew/docs/versions/index-en.html) and [roadmap](http://wet-boew.github.io/wet-boew/docs/versions/rdmp-en.html)
+* [Terms and conditions](http://wet-boew.github.io/wet-boew/License-en.html) (MIT license)
+* [Source code repository](https://github.com/wet-boew/wet-boew/) and [contributing guidelines](http://wet-boew.github.io/wet-boew/docs/start-en.html#develop)
+* [Communications material](http://wet-boew.github.io/wet-boew/docs/comms-en.html)
+* [Websites using WET](http://wet-boew.github.io/wet-boew/docs/ref/wetsites-en.html)
 
 ## Benefits
 
-### Accessibility 
+### Accessibility
 
 * Conforms to [WCAG 2.0](http://www.w3.org/TR/WCAG20/) level AA
 * Leverages [WAI-ARIA](http://www.w3.org/TR/wai-aria/) to further enhance accessibility
@@ -50,12 +43,12 @@ modified: "2013-09-05"
 
 * [HTML5](http://www.w3.org/TR/html5/)-first approach (leveraging native HTML5 support and filling support gaps with “polyfills”)
 * Supporting a wide variety of browsers (IE, Firefox, Chrome, Safari, Opera)
-* Building support for HTML data ([RDFa 1.1 Lite](http://www.w3.org/TR/rdfa-lite/), [Schema.org](http://http://www.schema.org/))
+* Building support for HTML data ([RDFa 1.1 Lite](http://www.w3.org/TR/rdfa-lite/), [Schema.org](http://www.schema.org/))
 
 ### Mobile friendly responsive design
 
 * Adapts to different screen sizes and device capabilities
-* Touchscreen support ([jQuery Mobile](http://www.jquerymobile.com))
+* Touchscreen support
 * Optimized for performance
 * Building support for device-based mobile applications
 
@@ -99,9 +92,9 @@ modified: "2013-09-05"
 ### Themeable and reusable
 
 * Flexible framework that supports custom themes
-* Includes support for 5 different themes including a “Base” theme to use as a template
-* Reusable templates, plugins and widgets
-* Adapted to various CMS and programming frameworks (Drupal, WordPress, SharePoint (in development), DotNetNuke (in development), PHP, SSI, Java/Maven)
+* Includes support for [5 different themes](http://wet-boew.github.io/wet-boew/docs/ref/themesstyle-en.html) including a [“Base” theme](http://wet-boew.github.io/themes-dist/theme-base/docs/ref/theme-base/theme-base-en.html) to use as a template
+* Reusable templates, [plugins](http://wet-boew.github.io/wet-boew/docs/ref/plugins-en.html) and widgets
+* [Adapted to various CMS and programming frameworks](http://wet-boew.github.io/wet-boew/docs/ref/variants-en.html) (Drupal, WordPress, SharePoint (in development), DotNetNuke (in development), PHP, SSI, Java/Maven)
 
 ### Reduces costs by openly sharing and collaborating
 

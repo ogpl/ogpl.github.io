@@ -1,11 +1,12 @@
 ---
 published: true
-layout: "default-theme-ogpl-en"
+layout: "theme-ogpl/default"
 permalink: "india-en.html"
-filename_root: india
 title: India
-description: English description / Description en anglais
-modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
+language: en
+altLangPrefix: india
+dateModified: "2014-07-07"
+description: Information on Indian Open Data
 ---
 
 Information on Indian Open Data goes here

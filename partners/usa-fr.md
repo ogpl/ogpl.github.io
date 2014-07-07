@@ -1,11 +1,12 @@
 ---
 published: true
-layout: "default-theme-ogpl-fr"
+layout: "theme-ogpl/default"
 permalink: "usa-fr.html"
-filename_root: usa
-title: "États-Unis d'Amérique"
-description: French description / Description en français
-modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
+title: États-Unis d'Amérique
+language: fr
+altLangPrefix: usa
+dateModified: "2014-07-07"
+description: Information sur les États-Unis d'Amérique
 ---
 
 Information sur les États-Unis d'Amérique ici

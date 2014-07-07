@@ -1,17 +1,16 @@
 ---
-published: false
-layout: "default-theme-ogpl-en"
+published: true
+layout: "theme-ogpl/default"
 permalink: "index-en.html"
-filename_root: index
 title: Open Government Platform
-description: English description / Description en anglais
-modified: "2013-06-24"
-breadcrumb: false
+language: en
+altLangPrefix: index
+dateModified: "2014-07-07"
 ---
 
-Welcome to the Open Government Platform! You'll find here a growing set of open source, open government platform code that allows any city, organization, or government to create an open data site. Below you'll see the first code for a data management system.
+{{ site.data.i18n-ogpl[page.language].site-description }} Below you'll see the first code for a data management system.
 
-## Table of contents ##
+## Table of contents
 
 * [Best Practices](/best_practices/index-en.html)
   * [API](/best_practices/apis-en.html)

@@ -1,17 +1,16 @@
 ---
 published: true
-layout: "default-theme-ogpl-fr"
+layout: "theme-ogpl/default"
 permalink: "index-fr.html"
-filename_root: index
 title: Plate-forme de gouvernement ouvert
-description: French description / Description en français
-modified: "2013-06-24"
-breadcrumb: false
+language: fr
+altLangPrefix: index
+dateModified: "2014-07-07"
 ---
 
-{{ site.description_fr }}
+{{ site.data.i18n-ogpl[page.language].site-description }} Ci-dessous vous verrez le premier code pour un système de gestion de données.
 
-## Table des matières ##
+## Table des matières
 
 * [Pratiques exemplaires](/best_practices/index-fr.html)
   * [API](/best_practices/apis-fr.html)

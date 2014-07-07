@@ -1,0 +1,16 @@
+<div class="container nvbar">
+	<h2>{{ site.data.i18n-base[page.language].tmpl-site-menu }}</h2>
+    <div class="row">
+        <ul class="list-inline menu">
+{% if page.altMenu == null or  page.altMenu == '' %}
+			<li><a href="{{assets}}/index-{ page.language }.html">{{ site.data.i18n-base[page.language].tmpl-wet-project }}</a></li>
+			<li><a href="http://wet-boew.github.io/wet-boew/docs/start-{ page.language }.html#implement">{{ site.data.i18n-base[page.language].tmpl-implement-wet }}</a></li>
+			<li><a href="http://wet-boew.github.io/wet-boew/docs/start-{ page.language }.html">{{ site.data.i18n-base[page.language].tmpl-contribute-wet }}</a></li>
+{% else %}
+			<li><a href="#">{{ site.data.i18n-base[page.language].tmpl-section }}{{ site.data.i18n-base[page.language].space }}1</a></li>
+			<li><a href="#">{{ site.data.i18n-base[page.language].tmpl-section }}{{ site.data.i18n-base[page.language].space }}2</a></li>
+			<li><a href="#">{{ site.data.i18n-base[page.language].tmpl-section }}{{ site.data.i18n-base[page.language].space }}3</a></li>
+{% endif %}
+        </ul>
+    </div>
+</div>

@@ -1,11 +1,12 @@
 ---
 published: true
-layout: "default-theme-ogpl-en"
-permalink: index-en.html
-filename_root: "index"
+layout: "theme-ogpl/default"
+permalink: "index-en.html"
 title: About OGPL
-description: English description / Description en anglais
-modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
+language: en
+altLangPrefix: index
+dateModified: "2014-07-07"
+description: About the Open Government Platform (OGPL)
 ---
 
 * [OGPL Governance on Github](gouvernance-en.html)

@@ -1,11 +1,12 @@
 ---
 published: true
-layout: "default-theme-ogpl-en"
+layout: "theme-ogpl/default"
 permalink: "index-en.html"
-filename_root: index
 title: Tools
-description: English description / Description en anglais
-modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
+language: en
+altLangPrefix: index
+dateModified: "2014-07-07"
+description: Information about OGPL tools
 ---
 
 * [CKAN](ckan-en.html)

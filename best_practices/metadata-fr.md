@@ -1,11 +1,12 @@
 ---
 published: true
-layout: "default-theme-ogpl-fr"
-permalink: metadata-fr.html
-filename_root: metadata
+layout: "theme-ogpl/default"
+permalink: "metadata-fr.html"
 title: Métadonnées
-description: French description / Description en français
-modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
+language: fr
+altLangPrefix: metadata
+dateModified: "2014-07-07"
+description: Informations métadonnées
 ---
 
 Informations métadonnées ici

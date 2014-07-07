@@ -1,21 +1,23 @@
 ---
 published: true
-layout: "default-theme-ogpl-fr"
+layout: "theme-ogpl/default"
 permalink: "governance-fr.html"
-filename_root: governance
 title: Gouvernance de la PGO sur Github
-description: French description / Description en français
-modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
+language: fr
+altLangPrefix: governance
+dateModified: "2014-07-07"
+description: À propos de la gouvernance de la PGO sur GitHub.
 ---
 
 ## Aperçu
-Le projet de plateforme du gouvernement ouvert (PGO) est hébergé sur GitHub par l’entremise de l’OGPL GitHub organization. L’objectif du projet est de gérer et de regrouper en un seul endroit les contributions à la PGO en matière de code, de gouvernance et d’information connexe de divers pays (font l’Inde, le Canada, le Ghana et les É.-U.), ainsi que les contributions de particuliers.
+
+Le projet de plate-forme du gouvernement ouvert (PGO) est hébergé sur GitHub par l’entremise de l’OGPL GitHub organization. L’objectif du projet est de gérer et de regrouper en un seul endroit les contributions à la PGO en matière de code, de gouvernance et d’information connexe de divers pays (font l’Inde, le Canada, le Ghana et les É.-U.), ainsi que les contributions de particuliers.
 
 La majorité des documents, du contenu, des discussions et des questions liés au projet PGO sur GitHub sera gérée au moyen du main OGPL GitHub repository.
 
 La composante principale de la PGO comprend :
 
-- Open Government Platform Base 
+- plate-forme du gouvernement ouvert de base 
 - code de base pour un site, la gestion des données, un système, l’engagement des citoyens, des communautés de pratique s’inscrivant dans un gouvernement ouvert
 
 Le projet PGO englobe également les projets suivants qui sont extérieurs à l’organisation GitHub pour la PGO:
@@ -111,6 +113,7 @@ Les communications et la collaboration en rapport avec la PGO permettront des in
 Les réunions se dérouleront en ligne, elles feront l’objet de procès-verbaux et/ou d’enregistrements en ligne, et seront portées à la connaissance de la collectivité.
 
 ## Références
+
 1. Organisations dans GitHub : https://github.com/blog/674-introducing-organizations
 2. Flux de travail dans GitHub : http://scottchacon.com/2011/08/31/github-flow.html
 3. Flux de travail CKAN GitHub : https://github.com/okfn/ckan/blob/master/CONTRIBUTING.rst

@@ -1,0 +1,55 @@
+<div class="container">
+	<div class="row">
+		<ol class="breadcrumb">
+			<li>
+				<a href="http://wet-boew.github.io/wet-boew/index-{{ page.language }}.html">{{ site.data.i18n-base[page.language].tmpl-home }}</a>
+			</li>
+			<li>
+				<a href="http://wet-boew.github.io/wet-boew/demos/index-{{ page.language }}.html">{{ site.data.i18n-base[page.language].tmpl-work-examples }}</a>
+			</li>
+{% unless page.url contains 'wet-boew-jekyll/index-' %}
+			<li>
+				<a href="http://wet-boew.github.io/wet-boew-jekyll/index-{{ page.language }}.html">{{ site.data.i18n-jekyll[page.language].tmpl-jekyll-variant }}</a>
+			</li>
+	{% if page.url contains 'theme-wet-boew' %}
+		{% unless page.url contains 'theme-wet-boew/index-' %}
+			<li>
+				<a href="http://wet-boew.github.io/wet-boew-jekyll/theme-wet-boew/index-{{ page.language }}.html">{{ site.data.i18n-base[page.language].tmpl-wet-theme }}</a>
+			</li>
+		{% endunless %}
+	{% elsif page.url contains 'gcweb' %}
+		{% unless page.url contains 'gcweb/index-' %}
+			<li>
+				<a href="http://wet-boew.github.io/wet-boew-jekyll/gcweb/index-{{ page.language }}.html">{{ site.data.i18n-base[page.language].tmpl-gcweb-theme }}</a>
+			</li>
+		{% endunless %}
+	{% elsif page.url contains 'theme-gcwu-fegc' %}
+		{% unless page.url contains 'theme-gcwu-fegc/index-' %}
+			<li>
+				<a href="http://wet-boew.github.io/wet-boew-jekyll/theme-gcwu-fegc/index-{{ page.language }}.html">{{ site.data.i18n-base[page.language].tmpl-gcwu-theme }}</a>
+			</li>
+		{% endunless %}
+	{% elsif page.url contains 'theme-gc-intranet' %}
+		{% unless page.url contains 'theme-gc-intranet/index-' %}
+			<li>
+				<a href="http://wet-boew.github.io/wet-boew-jekyll/theme-gc-intranet/index-{{ page.language }}.html">{{ site.data.i18n-base[page.language].tmpl-gcwu-intranet-theme }}</a>
+			</li>
+		{% endunless %}
+	{% elsif page.url contains 'theme-base' %}
+		{% unless page.url contains 'theme-base/index-' %}
+			<li>
+				<a href="http://wet-boew.github.io/wet-boew-jekyll/theme-base/index-{{ page.language }}.html">{{ site.data.i18n-base[page.language].tmpl-base-theme }}</a>
+			</li>
+		{% endunless %}
+	{% elsif page.url contains 'theme-ogpl' %}
+		{% unless page.url contains 'theme-ogpl/index-' %}
+			<li>
+				<a href="http://wet-boew.github.io/wet-boew-jekyll/theme-ogpl/index-{{ page.language }}.html">{{ site.data.i18n-base[page.language].tmpl-ogpl-theme }}</a>
+			</li>
+		{% endunless %}
+	{% endif %}
+{% endunless %}		
+			<li>{{ page.title }}</li>
+		</ol>
+	</div>
+</div>

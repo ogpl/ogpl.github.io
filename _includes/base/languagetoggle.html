@@ -1,0 +1,61 @@
+{% if page.url contains 'gcweb' %}
+<div class="row">
+	<div class="col-md-12">
+		<ul class="list-inline margin-bottom-none">
+	{% if page.language == "fr" %}
+	{% else %}
+			<li><a lang="fr" href="{{ page.altLangPrefix }}-fr.html">{{ site.data.i18n-base["fr"].lang-native }}</a></li>
+	{% endif %}
+	{% if page.language == "en" %}
+	{% else %}
+			<li><a lang="en" href="{{ page.altLangPrefix }}-en.html">{{ site.data.i18n-base["en"].lang-native }}</a></li>
+	{% endif %}
+		</ul>
+	</div>
+</div>
+{% elsif page.url contains 'theme-gcwu-fegc' %}
+<li id="wb-lng">
+	<h2>{{ site.data.i18n-base[page.language].tmpl-lang-select }}</h2>
+	<ul class="list-inline">
+	{% if page.language == "fr" %}
+	{% else %}
+		<li><a lang="fr" href="{{ page.altLangPrefix }}-fr.html">{{ site.data.i18n-base["fr"].lang-native }}</a></li>
+	{% endif %}
+	{% if page.language == "en" %}
+	{% else %}
+		<li><a lang="en" href="{{ page.altLangPrefix }}-en.html">{{ site.data.i18n-base["en"].lang-native }}</a></li>
+	{% endif %}
+	</ul>
+</li>
+{% elsif page.url contains 'theme-gc-intranet' %}
+<section id="wb-lng">
+	<h2>{{ site.data.i18n-base[page.language].tmpl-lang-select }}</h2>
+	<ul class="list-inline">
+	{% if page.language == "fr" %}
+	{% else %}
+		<li><a lang="fr" href="{{ page.altLangPrefix }}-fr.html">{{ site.data.i18n-base["fr"].lang-native }}</a></li>
+	{% endif %}
+	{% if page.language == "en" %}
+	{% else %}
+		<li><a lang="en" href="{{ page.altLangPrefix }}-en.html">{{ site.data.i18n-base["en"].lang-native }}</a></li>
+	{% endif %}
+	</ul>
+</section>
+{% else %}
+<ul class="text-right">
+	{% if page.language == "fr" %}
+		<li class="curr">{{ site.data.i18n-base[page.language].lang-native }}{{ site.data.i18n-base[page.language].space }}<span>{{ site.data.i18n-base[page.language].current }}</span></li>
+	{% else %}
+		{% if page.language == "en" %}
+		{% else %}
+			<li class="curr">{{ site.data.i18n-base[page.language].lang-native }}{{ site.data.i18n-base[page.language].space }}<span>{{ site.data.i18n-base[page.language].current }}</span></li>
+		{% endif %}
+		<li><a lang="fr" hreflang="fr" href="{{ page.altLangPrefix }}-fr.html">{{ site.data.i18n-base["fr"].lang-native }}</a></li>
+	{% endif %}
+	{% if page.language == "en" %}
+		<li class="curr">{{ site.data.i18n-base[page.language].lang-native }}{{ site.data.i18n-base[page.language].space }}<span>{{ site.data.i18n-base[page.language].current }}</span></li>
+	{% else %}
+		<li><a lang="en" hreflang="en" href="{{ page.altLangPrefix }}-en.html">{{ site.data.i18n-base["en"].lang-native }}</a></li>
+	{% endif %}
+</ul>
+{% endif %}

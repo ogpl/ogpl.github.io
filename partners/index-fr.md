@@ -1,11 +1,12 @@
 ---
 published: true
-layout: "default-theme-ogpl-fr"
+layout: "theme-ogpl/default"
 permalink: "index-fr.html"
-filename_root: index
 title: Partenaires
-description: French description / Description en français
-modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
+language: fr
+altLangPrefix: index
+dateModified: "2014-07-07"
+description: Informations à propos des partenaires de la PGO
 ---
 
 * [Canada](canada-fr.html)
