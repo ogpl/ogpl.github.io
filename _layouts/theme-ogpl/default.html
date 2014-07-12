@@ -20,13 +20,13 @@
 				<a class="wb-sl" href="#wb-cont">{{ site.data.i18n-base[page.language].tmpl-skip-cont }}</a>
 			</li>
 {% unless page.footer == "false" %}
-			<li class="wb-slc visible-md visible-lg">
-				<a class="wb-sl" href="#wb-info">{{ site.data.i18n-base[page.language].tmpl-skip-info }}</a>
+			<li class="wb-slc visible-sm visible-md visible-lg">
+				<a class="wb-sl" href="#wb-info">{{ site.data.i18n-base[page.language].tmpl-skip-about-site }}</a>
 			</li>
 {% endunless %}
 {% if page.secondarymenu == "true" %}
 			<li class="wb-slc visible-md visible-lg">
-				<a class="wb-sl" href="#wb-sec">{{ site.data.i18n-base[page.language].tmpl-skip-sec }}</a>
+				<a class="wb-sl" href="#wb-sec">{{ site.data.i18n-base[page.language].tmpl-skip-section }}</a>
 			</li>
 {% endif %}
 		</ul>
@@ -43,7 +43,7 @@
 {% endunless %}
 {% unless page.mobimenu == "false" %}
 							<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
-								<h2>{{ site.data.i18n-base[page.language].menu }}</h2>
+								<h2>{{ site.data.i18n-base[page.language].srch-menus }}</h2>
 								{% include base/mobimenu.html %}
 							</section>
 {% endunless %}
@@ -100,7 +100,7 @@
 		</main>
 {% if page.secondarymenu == "true" %}
 				<nav role="navigation" id="wb-sec" typeof="SiteNavigationElement" class="col-md-3 col-md-pull-9 visible-md visible-lg">
-					<h2>{{ site.data.i18n-base[page.language].tmpl-sec-menu }}</h2>
+					<h2>{{ site.data.i18n-base[page.language].tmpl-section-menu }}</h2>
 					{% include base/secondarymenu.html %}
 				</nav>
 			</div>
@@ -111,7 +111,7 @@
 		<footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr">
 			<div class="container">
 				<nav role="navigation" class="row">
-					<h2>{{ site.data.i18n-base[page.language].tmpl-site-info }}</h2>
+					<h2>{{ site.data.i18n-base[page.language].tmpl-about-site }}</h2>
 					{% include theme-ogpl/footer.html %}
 				</nav>
 			</div>
