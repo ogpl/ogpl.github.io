@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "index-fr.html"
+permalink: "about/index-fr.html"
 title: À propos de la PGO
 language: fr
 altLangPrefix: index

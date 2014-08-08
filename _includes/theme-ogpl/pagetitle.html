@@ -1,0 +1,15 @@
+<title>{{ page.title }}
+{% if page.url contains "about/" %}
+ - {{ site.data.i18n-theme-ogpl[page.language].site-about }}
+{% elsif page.url contains "best-practices/" %}
+ - {{ site.data.i18n-theme-ogpl[page.language].best-practices }}
+{% elsif page.url contains "contributions/" %}
+ - {{ site.data.i18n-theme-ogpl[page.language].contributions }}
+{% elsif page.url contains "open-data/" %}
+ - {{ site.data.i18n-theme-ogpl[page.language].open-data }}
+{% elsif page.url contains "partners/" %}
+ - {{ site.data.i18n-theme-ogpl[page.language].partners }}
+{% elsif page.url contains "tools/" %}
+ - {{ site.data.i18n-theme-ogpl[page.language].tools }}
+{% endif %}	
+ - {{ site.data.i18n-base[page.language].site-title }}</title>

@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "india-fr.html"
+permalink: "partners/india-fr.html"
 title: Inde
 language: fr
 altLangPrefix: india

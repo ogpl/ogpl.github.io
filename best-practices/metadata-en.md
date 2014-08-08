@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "metadata-en.html"
+permalink: "best-practices/metadata-en.html"
 title: Best Practices
 language: en
 altLangPrefix: metadata

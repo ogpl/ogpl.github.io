@@ -7,7 +7,7 @@
 		<meta charset="utf-8" />
 		<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-		<title>{{ page.title }}</title>
+		{% include base/pagetitle.html %}
 		<meta content="width=device-width, initial-scale=1" name="viewport" />
 		<!-- Meta data -->
 		<meta name="description" content="{% if page.description == null or page.description == '' %}{{ site.data.i18n-ogpl[page.language].site-description }}{% else %}{{ page.description }}{% endif %}" />

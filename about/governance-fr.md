@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "governance-fr.html"
+permalink: "about/governance-fr.html"
 title: Gouvernance de la PGO sur Github
 language: fr
 altLangPrefix: governance

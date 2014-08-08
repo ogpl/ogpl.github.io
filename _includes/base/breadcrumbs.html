@@ -7,7 +7,7 @@
 			<li>
 				<a href="http://wet-boew.github.io/wet-boew/demos/index-{{ page.language }}.html">{{ site.data.i18n-base[page.language].tmpl-work-examples }}</a>
 			</li>
-{% unless page.url contains 'wet-boew-jekyll/index-' %}
+{% unless page.url == "index-en.html" or page.url == "index-fr.html" %}
 			<li>
 				<a href="http://wet-boew.github.io/wet-boew-jekyll/index-{{ page.language }}.html">{{ site.data.i18n-jekyll[page.language].tmpl-jekyll-variant }}</a>
 			</li>

@@ -1,0 +1,15 @@
+<title>{{ page.title }}
+{% if page.url contains 'theme-wet-boew' %}
+ - {{ site.data.i18n-base[page.language].tmpl-wet-theme }}
+{% elsif page.url contains 'gcweb' %}
+ - {{ site.data.i18n-base[page.language].tmpl-gcweb-theme }}
+{% elsif page.url contains 'theme-gcwu-fegc' %}
+ - {{ site.data.i18n-base[page.language].tmpl-gcwu-theme }}
+{% elsif page.url contains 'theme-gc-intranet' %}
+ - {{ site.data.i18n-base[page.language].tmpl-gcwu-intranet-theme }}
+{% elsif page.url contains 'theme-base' %}
+ - {{ site.data.i18n-base[page.language].tmpl-base-theme }}
+{% elsif page.url contains 'theme-ogpl' %}
+ - {{ site.data.i18n-base[page.language].tmpl-ogpl }}
+{% endif %}
+ - {{ site.data.i18n-jekyll[page.language].tmpl-jekyll-variant }} - {{ site.data.i18n-base[page.language].tmpl-work-examples }} - {{ site.data.i18n-base[page.language].site-title }}</title>

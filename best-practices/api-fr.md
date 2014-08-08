@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "apis-fr.html"
+permalink: "best-practices/apis-fr.html"
 title: APIs
 language: en
 altLangPrefix: apis

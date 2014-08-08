@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "index-fr.html"
+permalink: "contributions/index-fr.html"
 title: Contributions
 language: fr
 altLangPrefix: index
