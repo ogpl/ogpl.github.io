@@ -4,7 +4,7 @@ layout: "theme-ogpl/default"
 permalink: "index-fr.html"
 title: Plate-forme de gouvernement ouvert
 language: fr
-breadcrumb: false
+breadcrumb: "false"
 altLangPrefix: index
 dateModified: "2014-07-07"
 ---

@@ -4,7 +4,7 @@ layout: "theme-ogpl/default"
 permalink: "index-en.html"
 title: Open Government Platform
 language: en
-breadcrumb: false
+breadcrumb: "false"
 altLangPrefix: index
 dateModified: "2014-07-07"
 ---
