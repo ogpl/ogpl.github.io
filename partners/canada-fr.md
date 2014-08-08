@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "canada-fr.html"
+permalink: "partners/canada-fr.html"
 title: Canada
 language: fr
 altLangPrefix: canada

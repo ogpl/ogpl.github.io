@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "wet-boew-fr.html"
+permalink: "tools/wet-boew-fr.html"
 title: Boîte à outils de l'expérience Web (BOEW)
 language: fr
 altLangPrefix: wet-boew

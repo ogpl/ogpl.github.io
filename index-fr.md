@@ -12,11 +12,11 @@ dateModified: "2014-07-07"
 
 ## Table des matières
 
-* [Pratiques exemplaires](/best_practices/index-fr.html)
-  * [API](/best_practices/apis-fr.html)
-  * [Métadonnées](/best_practices/metadata-fr.html)
+* [Pratiques exemplaires](/best-practices/index-fr.html)
+  * [API](/best-practices/apis-fr.html)
+  * [Métadonnées](/best-practices/metadata-fr.html)
 * [Contributions](/contributions/index-fr.html)
-* [Données ouvertes](/open_data/index-fr.html)
+* [Données ouvertes](/open-data/index-fr.html)
 * [Partenaires](/partners/index-fr.html)
   * [Canada](/partners/canada-fr.html)
   * [États-Unis d'Amérique](/partners/usa-fr.html)

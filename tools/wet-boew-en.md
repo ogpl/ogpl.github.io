@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "wet-boew-en.html"
+permalink: "tools/wet-boew-en.html"
 title: Web Experience Toolkit (WET)
 language: en
 altLangPrefix: wet-boew

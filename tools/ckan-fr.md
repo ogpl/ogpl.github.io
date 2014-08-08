@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "ckan-fr.html"
+permalink: "tools/ckan-fr.html"
 title: CKAN
 language: fr
 altLangPrefix: ckan

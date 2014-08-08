@@ -12,11 +12,11 @@ dateModified: "2014-07-07"
 
 ## Table of contents
 
-* [Best Practices](/best_practices/index-en.html)
-  * [API](/best_practices/apis-en.html)
-  * [Metadata](/best_practices/metadata-en.html)
+* [Best Practices](/best-practices/index-en.html)
+  * [API](/best-practices/apis-en.html)
+  * [Metadata](/best-practices/metadata-en.html)
 * [Contributions](/contributions/index-en.html)
-* [Open Data](/open_data/index-en.html)
+* [Open Data](/open-data/index-en.html)
 * [Partners](/partners/index-en.html)
   * [Canada](/partners/canada-en.html)
   * [India](/partners/india-en.html)

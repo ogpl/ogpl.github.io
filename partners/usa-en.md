@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "usa-en.html"
+permalink: "partners/usa-en.html"
 title: United States of America
 language: en
 altLangPrefix: usa

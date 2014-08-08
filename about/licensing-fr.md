@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "licensing-fr.html"
+permalink: "about/licensing-fr.html"
 title: Licences
 language: fr
 altLangPrefix: licensing

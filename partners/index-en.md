@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "index-en.html"
+permalink: "partners/index-en.html"
 title: Partners
 language: en
 altLangPrefix: index

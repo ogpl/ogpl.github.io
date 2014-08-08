@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "governance-en.html"
+permalink: "about/governance-en.html"
 title: OGPL Governance on Github
 language: en
 altLangPrefix: governance

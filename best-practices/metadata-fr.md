@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "metadata-fr.html"
+permalink: "best-practices/metadata-fr.html"
 title: Métadonnées
 language: fr
 altLangPrefix: metadata

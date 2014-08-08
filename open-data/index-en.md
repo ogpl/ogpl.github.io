@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "index-en.html"
+permalink: "open-data/index-en.html"
 title: Open Data
 language: en
 altLangPrefix: index

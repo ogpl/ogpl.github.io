@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "drupal-fr.html"
+permalink: "tools/drupal-fr.html"
 title: Drupal
 language: fr
 altLangPrefix: drupal
